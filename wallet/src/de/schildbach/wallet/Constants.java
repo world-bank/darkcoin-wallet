@@ -28,14 +28,14 @@ import com.google.bitcoin.core.NetworkParameters;
 import com.google.bitcoin.params.MainNetParams;
 import com.google.bitcoin.params.TestNet3Params;
 import com.google.bitcoin.core.CoinDefinition;
-import hashengineering.darkcoin.wallet.R;
+import hashengineering.darkcoin.wallet_test.R;
 
 /**
  * @author Andreas Schildbach
  */
 public class Constants
 {
-	public static final boolean TEST = false; //R.class.getPackage().getName().contains("_test");
+	public static final boolean TEST = R.class.getPackage().getName().contains("_test");
 
 	public static final NetworkParameters NETWORK_PARAMETERS = TEST ? TestNet3Params.get() : MainNetParams.get();
 	private static final String FILENAME_NETWORK_SUFFIX = NETWORK_PARAMETERS.getId().equals(NetworkParameters.ID_MAINNET) ? "" : "-testnet";

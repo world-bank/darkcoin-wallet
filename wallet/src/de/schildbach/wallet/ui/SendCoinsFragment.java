@@ -106,7 +106,7 @@ import de.schildbach.wallet.util.GenericUtils;
 import de.schildbach.wallet.util.Nfc;
 import de.schildbach.wallet.util.PaymentProtocol;
 import de.schildbach.wallet.util.WalletUtils;
-import hashengineering.darkcoin.wallet.R;
+import hashengineering.darkcoin.wallet_test.R;
 
 /**
  * @author Andreas Schildbach

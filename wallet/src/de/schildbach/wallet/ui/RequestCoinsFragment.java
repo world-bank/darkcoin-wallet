@@ -70,7 +70,7 @@ import de.schildbach.wallet.util.Bluetooth;
 import de.schildbach.wallet.util.Nfc;
 import de.schildbach.wallet.util.PaymentProtocol;
 import de.schildbach.wallet.util.Qr;
-import hashengineering.darkcoin.wallet.R;
+import hashengineering.darkcoin.wallet_test.R;
 
 /**
  * @author Andreas Schildbach

@@ -27,7 +27,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
-import hashengineering.darkcoin.wallet.R;
+import hashengineering.darkcoin.wallet_test.R;
 
 /**
  * @author Andreas Schildbach

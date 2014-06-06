@@ -2,11 +2,11 @@
 <!-- Need to update this for the coin -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
 	xmlns:tools="http://schemas.android.com/tools"
-	package="hashengineering.darkcoin.wallet"
+	package="hashengineering.darkcoin.wallet_test"
 	android:installLocation="internalOnly"
 
 	android:versionCode="10011"
-	android:versionName="0.1.1" >
+	android:versionName="0.1.1-test" >
 
 
 	<uses-sdk
@@ -193,12 +193,12 @@
         <!-- Need to update this for the coin -->
 		<provider
 			android:name="de.schildbach.wallet.AddressBookProvider"
-			android:authorities="hashengineering.darkcoin.wallet.address_book"
+			android:authorities="hashengineering.darkcoin.wallet_test.address_book"
 			android:exported="false" />
         <!-- Need to update this for the coin -->
 		<provider
 			android:name="de.schildbach.wallet.ExchangeRatesProvider"
-			android:authorities="hashengineering.darkcoin.wallet.exchange_rates"
+			android:authorities="hashengineering.darkcoin.wallet_test.exchange_rates"
 			android:exported="false" />
 
 		<receiver

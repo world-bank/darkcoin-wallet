@@ -54,7 +54,7 @@ import de.schildbach.wallet.WalletApplication;
 import de.schildbach.wallet.ui.InputParser.BinaryInputParser;
 import de.schildbach.wallet.ui.InputParser.StringInputParser;
 import de.schildbach.wallet.util.*;
-import hashengineering.darkcoin.wallet.R;
+import unpaybank.unpaycoin.wallet.R;
 
 import javax.annotation.Nonnull;
 import java.io.*;

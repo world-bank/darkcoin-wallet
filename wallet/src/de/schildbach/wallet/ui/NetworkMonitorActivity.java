@@ -27,7 +27,7 @@ import com.actionbarsherlock.app.ActionBar;
 import com.actionbarsherlock.view.MenuItem;
 
 import de.schildbach.wallet.util.ViewPagerTabs;
-import hashengineering.darkcoin.wallet.R;
+import unpaybank.unpaycoin.wallet.R;
 
 /**
  * @author Andreas Schildbach

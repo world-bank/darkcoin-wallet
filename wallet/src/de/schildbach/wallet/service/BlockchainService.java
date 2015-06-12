@@ -23,7 +23,7 @@ import javax.annotation.CheckForNull;
 
 import com.google.bitcoin.core.Peer;
 import com.google.bitcoin.core.StoredBlock;
-import hashengineering.darkcoin.wallet.R;
+import unpaybank.unpaycoin.wallet.R;
 
 /**
  * @author Andreas Schildbach

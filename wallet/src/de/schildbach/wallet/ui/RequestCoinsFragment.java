@@ -56,7 +56,7 @@ import de.schildbach.wallet.ExchangeRatesProvider.ExchangeRate;
 import de.schildbach.wallet.WalletApplication;
 import de.schildbach.wallet.offline.AcceptBluetoothService;
 import de.schildbach.wallet.util.*;
-import hashengineering.darkcoin.wallet.R;
+import unpaybank.unpaycoin.wallet.R;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

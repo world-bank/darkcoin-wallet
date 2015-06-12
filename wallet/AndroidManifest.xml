@@ -193,12 +193,12 @@
         <!-- Need to update this for the coin -->
 		<provider
 			android:name="de.schildbach.wallet.AddressBookProvider"
-			android:authorities="hashengineering.darkcoin.wallet.address_book"
+			android:authorities="unpaybank.unpaycoin.wallet.address_book"
 			android:exported="false" />
         <!-- Need to update this for the coin -->
 		<provider
 			android:name="de.schildbach.wallet.ExchangeRatesProvider"
-			android:authorities="hashengineering.darkcoin.wallet.exchange_rates"
+			android:authorities="unpaybank.unpaycoin.wallet.exchange_rates"
 			android:exported="false" />
 
 		<receiver

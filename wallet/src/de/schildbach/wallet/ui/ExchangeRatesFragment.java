@@ -55,7 +55,7 @@ import de.schildbach.wallet.WalletApplication;
 import de.schildbach.wallet.service.BlockchainService;
 import de.schildbach.wallet.util.GenericUtils;
 import de.schildbach.wallet.util.WalletUtils;
-import hashengineering.darkcoin.wallet.R;
+import unpaybank.unpaycoin.wallet.R;
 
 /**
  * @author Andreas Schildbach

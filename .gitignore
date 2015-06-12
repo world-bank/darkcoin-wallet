@@ -3,6 +3,7 @@ local.properties
 .project
 .settings/
 .idea/
+.DS_Store
 bin/
 gen/
 target/

@@ -8,7 +8,7 @@
 	<packaging>apk</packaging>
 
 	<version>1.0.9</version>
-	<name>Dash Wallet</name>
+	<name>Unpay Wallet</name>
 
 
 	<parent>

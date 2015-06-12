@@ -1,12 +1,12 @@
-Darkcoiny vždy so sebou vo svojom vrecku. Jednoduché a rýchle platby pomocou QR kódov. Pre obchodníkov ponúka spoľahlivé a okamžité prijímanie platieb. Darkcoin Wallet je prvá mobilná Darkcoin aplikácia a preukázateľne aj najbezpečnejšia.
+Darkcoiny vždy so sebou vo svojom vrecku. Jednoduché a rýchle platby pomocou QR kódov. Pre obchodníkov ponúka spoľahlivé a okamžité prijímanie platieb. Unpaybank Wallet je prvá mobilná Unpaybank aplikácia a preukázateľne aj najbezpečnejšia.
 
 FUNKCIE:
 
 • Nie je potrebná žiadna registrácia ani žiadny účet.
-• Zobrazenie zostatku Darkcoinov v DASH alebo mDASH.
+• Zobrazenie zostatku Darkcoinov v UNP alebo mUNP.
 • Prepočet hodnoty Darkcoinov do viacerých cudzích mien.
-• Posielanie a prijímanie Darkcoinov pomocou NFC, QR kódov alebo Darkcoin adries.
-• Adresár pre často používané Darkcoin adresy.
+• Posielanie a prijímanie Darkcoinov pomocou NFC, QR kódov alebo Unpaybank adries.
+• Adresár pre často používané Unpaybank adresy.
 • V offline režime je platba možná aj cez Bluetooth.
 • Notifikácie v stavovej lište pri prijatí Darkcoinov.
 • Widget s celkovým zostatkom.
@@ -14,7 +14,7 @@ FUNKCIE:
 Viac informácií o Darkcoine
 http://darkcoin.io
 
-Ak chcete prispieť do projektu Darkcoin Wallet nájdete ho na adrese
+Ak chcete prispieť do projektu Unpaybank Wallet nájdete ho na adrese
 https://github.com/HashEngineering/darkcoin-wallet
 
 Licencia: GPLv3

@@ -12,7 +12,7 @@
 • ビットコイン収支のためのヴィジット。
 
 ビットコインについての詳細は
-http://Darkcoin.org
+http://Unpaybank.org
 
 もしビットコインウォレットへの開発協力をご希望なら、プロジェクトはこちら
 https://github.com/HashEngineering/darkcoin-wallet

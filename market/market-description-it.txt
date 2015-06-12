@@ -1,20 +1,20 @@
-Porta i tuoi Darkcoin sempre con te, in tasca! Paghi velocemente scansionando un QR-code. Come un commerciante, riceverai i pagamenti sicuri e istantanei. Darkcoin Wallet è la prima Darkcoin app mobile, e probabilmente anche la più sicura!
+Porta i tuoi Unpaybank sempre con te, in tasca! Paghi velocemente scansionando un QR-code. Come un commerciante, riceverai i pagamenti sicuri e istantanei. Unpaybank Wallet è la prima Unpaybank app mobile, e probabilmente anche la più sicura!
 
 CARATTERISTICHE:
 
 • Non è necessaria alcuna registrazione, servizio web o cloud! Questo portafoglio è de-centralizzato e peer to peer.
-• Mostra l'ammontare di Darkcoin in DASH e mDASH.
+• Mostra l'ammontare di Unpaybank in UNP e mUNP.
 • Conversione verso e dalle monete nazionali.
-• Invio e ricevimento di Darkcoin tramite NFC, codici QR o URL Darkcoin.
-• Rubrica degli indirizzi per usare indirizzi Darkcoin regolarmente.
+• Invio e ricevimento di Unpaybank tramite NFC, codici QR o URL Unpaybank.
+• Rubrica degli indirizzi per usare indirizzi Unpaybank regolarmente.
 • Quando sei offline, puoi comunque ancora pagare via Bluetooth.
 • Sistema di notifica per le monete ricevute.
-• App Widget per il saldo Darkcoin
+• App Widget per il saldo Unpaybank
 
-Puoi trovare altri dettagli su Darkcoin su
+Puoi trovare altri dettagli su Unpaybank su
 http://darkcoin.io
 
-Se vuoi contribuire a Darkcoin Wallet, il progetto si trova su
+Se vuoi contribuire a Unpaybank Wallet, il progetto si trova su
 https://github.com/HashEngineering/darkcoin-wallet
 
 Licenza: GPLv3

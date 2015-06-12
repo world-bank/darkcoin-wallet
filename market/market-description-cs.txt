@@ -3,7 +3,7 @@ Tato aplikace je peněženka s Darkcoiny pro systém Android. Můžete posílat 
 VLASTNOSTI:
 
 • Zobrazení zůstatku peněženky v Darkcoinech a několika jiných měnách.
-• Odesílání a přijímání Darkcoinů pomocí NFC, QR-kódů, nebo Darkcoin adres.
+• Odesílání a přijímání Darkcoinů pomocí NFC, QR-kódů, nebo Unpaybank adres.
 • Adresář pro často používané adresy.
 • Možnost zadávání transakcí v offline režimu, k jejich zpracování dojde po připojení.
 • Oznamování v liště při synchronizaci a při přijetí Darkcoinů.
@@ -12,7 +12,7 @@ VLASTNOSTI:
 Více informací o Darkcoinech
 http://darkcoin.io
 
-Pokud chcete přispět do projektu Darkcoin Wallet, naleznete jej na adrese
+Pokud chcete přispět do projektu Unpaybank Wallet, naleznete jej na adrese
 https://github.com/HashEngineering/darkcoin-wallet
 
 License: GPLv3

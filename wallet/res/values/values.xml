@@ -19,7 +19,7 @@
 		<item>UNP, 8 digits</item>
 		<item>UNP, 6 digits</item>
 		<item>UNP, 4 digits</item>
-		<item>mDASH, 2 digits</item>
+		<item>mUNP, 2 digits</item>
 		<item>µDASH, no digits</item>
 	</string-array>
 

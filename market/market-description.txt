@@ -3,7 +3,7 @@ Have your Dashs always with you, in your pocket! You pay by quickly scanning a Q
 FEATURES:
 
 • No registration, web service or cloud needed! This wallet is de-centralized and peer to peer.
-• Display of Dash amount in DASH, mDASH and µDASH.
+• Display of Dash amount in UNP, mUNP and µDASH.
 • Conversion to and from national currencies.
 • Sending and receiving of Dash via NFC, QR-codes or Dash URLs.
 • Address book for regularly used Dash addresses.

@@ -15,10 +15,10 @@
 	<string name="blockchain_state_progress_problem_storage">Synchronisation: Speicherplatz-Problem</string>
 	<string name="blockchain_state_progress_problem_network">Synchronisation: Netzwerk-Problem</string>
 
-	<string name="wallet_address_fragment_your">Deine Dash-Adresse:</string>
-	<string name="wallet_address_fragment_clipboard_msg">Dash-Adresse ins Clipboard kopiert</string>
-	<string name="wallet_addresses_fragment_add_dialog_title">Dash-Adresse hinzufügen</string>
-	<string name="wallet_addresses_fragment_add_dialog_message">Dash-Adressen können nicht gelöscht werden. Möchtest Du eine neue Adresse zu deiner Wallet hinzufügen?</string>
+	<string name="wallet_address_fragment_your">Deine Unpay-Adresse:</string>
+	<string name="wallet_address_fragment_clipboard_msg">Unpay-Adresse ins Clipboard kopiert</string>
+	<string name="wallet_addresses_fragment_add_dialog_title">Unpay-Adresse hinzufügen</string>
+	<string name="wallet_addresses_fragment_add_dialog_message">Unpay-Adressen können nicht gelöscht werden. Möchtest Du eine neue Adresse zu deiner Wallet hinzufügen?</string>
 
 	<string name="wallet_balance_fragment_replaying">Guthaben ist während des Replays nicht verfügbar.</string>
 	<string name="exchange_rates_activity_title">Wechselkurse</string>
@@ -44,9 +44,9 @@
     <string name="wallet_options_disconnect">Verbindungen trennen</string>
 	<string name="wallet_options_safety">Sicherheit</string>
 	<string name="wallet_options_donate">Spenden</string>
-	<string name="wallet_donate_address_label">Spende für Dash Wallet</string>
+	<string name="wallet_donate_address_label">Spende für Unpay Wallet</string>
 	<string name="wallet_low_storage_dialog_title">Interner Speicher wird knapp!</string>
-	<string name="wallet_low_storage_dialog_msg">Dash Wallet nutzt internen Speicher um sich Transaktionen und Blöcke zu merken. Wenn der
+	<string name="wallet_low_storage_dialog_msg">Unpay Wallet nutzt internen Speicher um sich Transaktionen und Blöcke zu merken. Wenn der
 		Speicher vollläuft, wird es nicht mehr funktionieren und Deine Dashs sind in Gefahr!\n\nMöchtest Du die
 		App-Verwaltung öffnen, um ungenutzte Apps zu deinstallieren?</string>
 	<string name="wallet_low_storage_dialog_button_apps">App-Verwaltung</string>
@@ -60,7 +60,7 @@
 	<string name="wallet_version_dialog_button_binary">Herunterladen</string>
 
 	<string name="wallet_old_sdk_dialog_title">Android ist veraltet</string>
-	<string name="wallet_old_sdk_dialog_message">Es ist möglich, daß eine der nächsten Versionen von Dash Wallet dein Gerät nicht mehr unterstützt. In manchen Fällen kann es schwierig werden, Zahlungen zu tätigen.\n\nEs wird empfohlen, die enthaltenen Dashs bald zu verschieben, außer du weisst was du tust.</string>
+	<string name="wallet_old_sdk_dialog_message">Es ist möglich, daß eine der nächsten Versionen von Unpay Wallet dein Gerät nicht mehr unterstützt. In manchen Fällen kann es schwierig werden, Zahlungen zu tätigen.\n\nEs wird empfohlen, die enthaltenen Dashs bald zu verschieben, außer du weisst was du tust.</string>
 
 	<string name="send_coins_activity_title">Dashs senden</string>
 	<string name="send_coins_fragment_request_payment_request_progress">Rufe Signatur von %s ab…</string>
@@ -72,12 +72,12 @@
 	<string name="send_coins_fragment_receiving_address_label">Empfänger</string>
 	<string name="send_coins_fragment_receiving_address_hint">Adresse oder Namen</string>
 
-	<string name="send_coins_fragment_receiving_address_error">Ungültige Dash-Adresse!</string>
+	<string name="send_coins_fragment_receiving_address_error">Ungültige Unpay-Adresse!</string>
 	<string name="send_coins_fragment_receiving_address_error_cross_network">Kann %s-Adresse mit dieser Wallet nicht nutzen!</string>
 	<string name="send_coins_fragment_receiving_address_error_cross_network_unknown">Kann Adresse von unbekanntem Netzwerk mit dieser Wallet nicht nutzen!</string>
 
 	<string name="send_coins_fragment_receiving_address_complex">komplexe\nAdresse</string>
-	<string name="send_coins_fragment_pending">(DASH %s warten auf Bestätigung)</string>
+	<string name="send_coins_fragment_pending">(UNP %s warten auf Bestätigung)</string>
 
 	<string name="send_coins_fragment_amount_label">Betrag</string>
 	<string name="send_coins_fragment_direct_payment_enable">Zahlung auch direkt senden</string>
@@ -168,21 +168,21 @@
 	<string name="export_keys_dialog_success">Deine privaten Schlüssel wurden nach\n\n%s\n\ngesichert. Verwahre sie sicher, und verwahre dein Passwort sicher!\n\nMöchtest du die Schlüssel mittels einer App archivieren?</string>
 	<string name="export_keys_dialog_failure">Deine privaten Schlüssel konnten nicht gesichert werden:\n%s</string>
 	<string name="export_keys_dialog_button_archive">Archivieren</string>
-	<string name="export_keys_dialog_mail_subject">Dash Wallet Sicherung der privaten Schlüssel</string>
-	<string name="export_keys_dialog_mail_text">Die verschlüsselte Datei im Anhang enthält private Dash-Schlüssel und sollte sicher verwahrt werden. Vergiss das Verschlüsselungs-Passwort nicht!</string>
+	<string name="export_keys_dialog_mail_subject">Unpay Wallet Sicherung der privaten Schlüssel</string>
+	<string name="export_keys_dialog_mail_text">Die verschlüsselte Datei im Anhang enthält private Unpay-Schlüssel und sollte sicher verwahrt werden. Vergiss das Verschlüsselungs-Passwort nicht!</string>
 	<string name="export_keys_dialog_mail_intent_chooser">Schlüssel archivieren mit…</string>
 	<string name="export_keys_dialog_mail_intent_failed">Archivieren der Schlüssel fehlgeschlagen.</string>
 	<string name="import_export_keys_dialog_password">Passwort</string>
 	<string name="import_export_keys_dialog_show">Passwort zeigen</string>
 	<string name="import_export_keys_dialog_failure_title">Fehler</string>
-	<string name="import_keys_intent_filter_action">Wiederherstellung der Dash-Schlüssel</string>
+	<string name="import_keys_intent_filter_action">Wiederherstellung der Unpay-Schlüssel</string>
 
 	<string name="scan_camera_problem_dialog_title">Sorry</string>
 	<string name="scan_camera_problem_dialog_message">Die Kamera hat ein Problem. Evtl. musst du dein Gerät neu starten.</string>
 
 	<string name="input_parser_io_error">Kann Daten nicht lesen:\n%s</string>
-	<string name="input_parser_invalid_bitcoin_uri">Ungültige Dash-URI:\n%s</string>
-	<string name="input_parser_invalid_address">Ungültige Dash-Adresse gelesen!\n(Versuchst Du Mainnet/Testnet zu mischen?)</string>
+	<string name="input_parser_invalid_bitcoin_uri">Ungültige Unpay-URI:\n%s</string>
+	<string name="input_parser_invalid_address">Ungültige Unpay-Adresse gelesen!\n(Versuchst Du Mainnet/Testnet zu mischen?)</string>
 	<string name="input_parser_unverifyable_paymentrequest">Kann Zahlungsanforderung nicht verifizieren:\n%s</string>
 	<string name="input_parser_invalid_paymentrequest">Ungültige Zahlungsanforderung:\n%s</string>
 	<string name="input_parser_invalid_transaction">Ungültige Transaktion:\n%s</string>
@@ -253,8 +253,8 @@
 	<string name="button_paste">Einfügen</string>
 	<string name="button_share">Teilen</string>
 	<string name="button_set_as_default">Als Standard setzen</string>
-	<string name="button_request_coins">DASH anfordern</string>
-	<string name="button_send_coins">DASH senden</string>
+	<string name="button_request_coins">UNP anfordern</string>
+	<string name="button_send_coins">UNP senden</string>
 	<string name="button_scan">Scannen</string>
 	<string name="button_edit_address">Adresse hinzufügen/ändern</string>
 	<string name="button_settings">Einstellungen</string>

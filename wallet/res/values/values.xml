@@ -4,7 +4,7 @@
 	<string name="symbol_to">→</string>
 	<string name="symbol_from">←</string>
 	<string name="symbol_internal">⇄</string>
-	<string name="app_name">Dash Wallet (beta)</string>
+	<string name="app_name">Unpay Wallet (beta)</string>
 
 
 
@@ -16,9 +16,9 @@
 		<item>0/6</item>
 	</string-array>
 	<string-array name="preferences_precision_labels">
-		<item>DASH, 8 digits</item>
-		<item>DASH, 6 digits</item>
-		<item>DASH, 4 digits</item>
+		<item>UNP, 8 digits</item>
+		<item>UNP, 6 digits</item>
+		<item>UNP, 4 digits</item>
 		<item>mDASH, 2 digits</item>
 		<item>µDASH, no digits</item>
 	</string-array>

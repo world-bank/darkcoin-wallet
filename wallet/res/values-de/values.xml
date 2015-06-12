@@ -2,9 +2,9 @@
 <resources>
 
 	<string-array name="preferences_precision_labels">
-		<item>DASH, 8 Dezimalen</item>
-		<item>DASH, 6 Dezimalen</item>
-		<item>DASH, 4 Dezimalen</item>
+		<item>UNP, 8 Dezimalen</item>
+		<item>UNP, 6 Dezimalen</item>
+		<item>UNP, 4 Dezimalen</item>
 		<item>mDASH, 2 Dezimalen</item>
 		<item>µDASH, keine Dezimalen</item>
 	</string-array>

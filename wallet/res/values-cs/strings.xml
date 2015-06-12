@@ -3,10 +3,10 @@
 
 	<string name="toast_wallet_reset">Zresetováno,\nobnova chvilku potrvá</string>
 	<string name="wallet_disclaimer_fragment_remind_safety">Použití na vlastní riziko. Více v &lt;u&gt;nápovědě&lt;/u&gt;.</string>
-	<string name="wallet_address_fragment_your">Vaše Dash Adresa:</string>
+	<string name="wallet_address_fragment_your">Vaše Unpay Adresa:</string>
 	<string name="wallet_address_fragment_clipboard_msg">Adresa zkopírována do schránky</string>
-	<string name="wallet_addresses_fragment_add_dialog_title">Přidat Dash adresu</string>
-	<string name="wallet_addresses_fragment_add_dialog_message">Dash adresa se nedá smazat. Chcete přidat do peněženky novou adresu?</string>
+	<string name="wallet_addresses_fragment_add_dialog_title">Přidat Unpay adresu</string>
+	<string name="wallet_addresses_fragment_add_dialog_message">Unpay adresa se nedá smazat. Chcete přidat do peněženky novou adresu?</string>
 	<string name="exchange_rates_fragment_empty_text">Nemohu zjistit směnný kurz</string>
 	<string name="wallet_transactions_fragment_tab_received">Obdrženo</string>
 	<string name="wallet_transactions_fragment_tab_all">Oba</string>
@@ -16,7 +16,7 @@
 	<string name="wallet_options_safety">Bezpečnost</string>
 	<string name="wallet_options_donate">Přispět</string>
 	<string name="wallet_low_storage_dialog_title">Málo vnitřní paměti!</string>
-	<string name="wallet_low_storage_dialog_msg">Dash Wallet používá vnitřní paměť zařízení pro ukládání transakcí a bloků. Pokud paměť dojde, aplikace
+	<string name="wallet_low_storage_dialog_msg">Unpay Wallet používá vnitřní paměť zařízení pro ukládání transakcí a bloků. Pokud paměť dojde, aplikace
 		může přestat fungovat a můžete pozbýt Vaše Dashy!\n\nChcete otevřít správce aplikací pro odinstalací nepotřebných aplikací?</string>
 	<string name="wallet_low_storage_dialog_button_apps">Spravovat aplikace</string>
 	<string name="send_coins_activity_title">Zaslat Dashy</string>
@@ -24,8 +24,8 @@
 	<string name="send_coins_fragment_receiving_address_label">Zaplatit</string>
 	<string name="send_coins_fragment_receiving_address_hint">napište adresu či jméno</string>
 
-	<string name="send_coins_fragment_receiving_address_error">Nesprávná Dash Adresa!</string>
-	<string name="send_coins_fragment_pending">(DASH %s čeká na potvrzení)</string>
+	<string name="send_coins_fragment_receiving_address_error">Nesprávná Unpay Adresa!</string>
+	<string name="send_coins_fragment_pending">(UNP %s čeká na potvrzení)</string>
 
 	<string name="send_coins_fragment_amount_label">Částka k zaplacení</string>
 	<string name="send_coins_fragment_button_send">Poslat</string>

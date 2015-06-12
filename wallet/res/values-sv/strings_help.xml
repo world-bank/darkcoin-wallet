@@ -4,11 +4,11 @@
 	<string name="help_wallet">
 <![CDATA[
 		<p>
-			I den övre vänstra delen av skärmen kan du se den Dash adress som andra behöver för att kunna skicka Dashs till dig.
-			Tryck med fingret på adressen för att skaffa dig en ny Dash adress.
+			I den övre vänstra delen av skärmen kan du se den Unpay adress som andra behöver för att kunna skicka Dashs till dig.
+			Tryck med fingret på adressen för att skaffa dig en ny Unpay adress.
 		</p>
 		<p>
-			QR koden till höger innehåller din Dash adress och kan scannas av de som vill skicka dig Dashs.
+			QR koden till höger innehåller din Unpay adress och kan scannas av de som vill skicka dig Dashs.
 			Tryck med fingret på QR koden så visas en större version av den.
 		</p>
 		<p>
@@ -31,7 +31,7 @@
 	<string name="help_request_coins">
 <![CDATA[
 		<p>
-			Med denna dialog kan du ta emot Dashs från någon annan (som redan har Dash Wallet installerad på sin telefon).
+			Med denna dialog kan du ta emot Dashs från någon annan (som redan har Unpay Wallet installerad på sin telefon).
 		</p>
 		<p>
 			Först anger du hur många Dashs du vill att de skickar.
@@ -39,7 +39,7 @@
 		<p>
 			Sedan kan den andra personen scanna QR koden.
 			Eller så använder du "Dela" knappen i aktivitetslistan för att skicka din uppmaning att skicka Dashs.
-			Den andra personen behöver sedan bara klicka på den Dash URL du skickat.
+			Den andra personen behöver sedan bara klicka på den Unpay URL du skickat.
 		</p>
 		<p>
 			Sedan kommer den andra personen att få se en dialogruta där alla fält redan är ifyllda.
@@ -51,12 +51,12 @@
 <![CDATA[
 		<p>
 			Du har påbörjat skickandet av Dashs.
-			Du kom hit endera från huvudskärmen eller genom att klicka på en Dash URL i din webbläsare.
+			Du kom hit endera från huvudskärmen eller genom att klicka på en Unpay URL i din webbläsare.
 		</p>
 		<p>
-			Ange först vilken Dash adress du vill skicka till.
+			Ange först vilken Unpay adress du vill skicka till.
 			Adressen kan automatiskt fyllas i om den börjar med någon av adresserna i din adressbok.
-			Du kan också scanna en QR kod innehållande en Dash adress, genom att trycka på QR knappen i aktivitetslistan.
+			Du kan också scanna en QR kod innehållande en Unpay adress, genom att trycka på QR knappen i aktivitetslistan.
 		</p>
 		<p>
 			Sedan kan du se hur många Dashs du för tillfället kan skicka.
@@ -67,7 +67,7 @@
 		</p>
 		<p>
 			Du kan skapa en transaktion även om du inte är online.
-			Den kommer att skickas nästa gång Dash Wallet startas.
+			Den kommer att skickas nästa gång Unpay Wallet startas.
 			Om du vill att en transaktion ska processas så fort som möjligt, se till att ha bra koppling till internet (exempelvis ett WLAN).
 		</p>
 		<p>
@@ -83,12 +83,12 @@
 			<b>Några ord om säkerhet och Dashs:</n>
 		</p>
 		<p>
-			Dina Dashs i Dash Wallet sparas på din Android telefon.
+			Dina Dashs i Unpay Wallet sparas på din Android telefon.
 			<b>Om du tappar bort din telefon, så tappar du bort dina Dashs.</b>
 			Precis som pengar i din vanliga plånbok.
 		</p>
 		<p>
-			<b>Innan du avinstallerar Dash Wallet</b> (eller tar bort appens data/rensar din telefon), <b>skicka dina Dashs till en annan plånbok</b>.
+			<b>Innan du avinstallerar Unpay Wallet</b> (eller tar bort appens data/rensar din telefon), <b>skicka dina Dashs till en annan plånbok</b>.
 			Alla kvarvarande Dashs kommer att försvinna.
 		</p>
 		<p>
@@ -102,7 +102,7 @@
 		</p>
 		<p>
 			Utsätt dig inte för onödig risk!
-			<b>Använd bara Dash Wallet med mindre belopp</b> för daglig användning.
+			<b>Använd bara Unpay Wallet med mindre belopp</b> för daglig användning.
 		</p>
 	]]>
 	</string>

@@ -4,11 +4,11 @@
 	<string name="help_wallet">
 <![CDATA[
 		<p>
-			Po lewej górnej stronie ekranu wyświetlany jest Twój aktualnie wybrany adres Dash, który inne osoby muszą znać żeby wysłać Ci Dash.
+			Po lewej górnej stronie ekranu wyświetlany jest Twój aktualnie wybrany adres Unpay, który inne osoby muszą znać żeby wysłać Ci Unpay.
 			Naciśnij żeby, go zmienić.
 		</p>
 		<p>
-			Kod QR po prawej zawiera Twój adres Dash i może zeskanowany przez inną osobę.
+			Kod QR po prawej zawiera Twój adres Unpay i może zeskanowany przez inną osobę.
 			Naciśnij na kod QR żeby otrzymać jego większą wersje.
 		</p>
 		<p>
@@ -31,15 +31,15 @@
 	<string name="help_request_coins">
 <![CDATA[
 		<p>
-			Przy pomocy tego dialogu, możesz wysłać prośbę o Dashy do innej osoby, tak jakbyś wystawił jej rachunek do zapłacenia. Osoba ta powinna mieć zainstalowany Dash Wallet.
+			Przy pomocy tego dialogu, możesz wysłać prośbę o Dashy do innej osoby, tak jakbyś wystawił jej rachunek do zapłacenia. Osoba ta powinna mieć zainstalowany Unpay Wallet.
 		</p>
 		<p>
-			U góry, wpisz kwotę Dash, o którą chcesz zapytać.
+			U góry, wpisz kwotę Unpay, o którą chcesz zapytać.
 		</p>
 		<p>
 			Potem osoba wczyta wytworzony kod QR,
 			albo Ty możesz wysłać rachunek za pomocą guzika Opublikuj na listwie menu.
-			Odbiorca będzie musiał otworzyć Dash URL zawarty w wysłanej wiadomości.
+			Odbiorca będzie musiał otworzyć Unpay URL zawarty w wysłanej wiadomości.
 		</p>
 		<p>
 			Osoba, która otrzymała wysłane zapytanie otrzyma gotowy i wypełniony formularz wysyłania Dashów.
@@ -51,15 +51,15 @@
 <![CDATA[
 		<p>
 			Zainicjowałeś proces wysyłania monet.
-			Przyszedłeś tutaj przez główny ekran albo naciskając na Dash URL w Twojej mobilnej przeglądarce.
+			Przyszedłeś tutaj przez główny ekran albo naciskając na Unpay URL w Twojej mobilnej przeglądarce.
 		</p>
 		<p>
-			Wpisz adres Dash na który ma wpłynąć zapłata.
+			Wpisz adres Unpay na który ma wpłynąć zapłata.
 			Wyświetlone zostaną podpowiedzi adresu z danych Twojej książki adresowej.
-			Możesz też skanować kody QR z adresami Dash albo zapytaniami Dash naciskając guzik QR w menu.
+			Możesz też skanować kody QR z adresami Unpay albo zapytaniami Unpay naciskając guzik QR w menu.
 		</p>
 		<p>
-			Poniżej widzisz ile Dash możesz wydać w tym momencie.
+			Poniżej widzisz ile Unpay możesz wydać w tym momencie.
 			Rożnica ze stanem konta na głównym ekranie wynika z jeszcze nie potwierdzonych monet, które nie mogą jeszcze zostać wydane.
 		</p>
 		<p>
@@ -80,16 +80,16 @@
 	<string name="help_safety">
 <![CDATA[
 		<p>
-			<b>Pare słów o bezpieczeństwie twoich Dash:</b>
+			<b>Pare słów o bezpieczeństwie twoich Unpay:</b>
 		</p>
 		<p>
-			Dash w Dash Wallet są magazynowane na urządzeniu.
+			Unpay w Unpay Wallet są magazynowane na urządzeniu.
 			<b>Jak zgubisz swoje urządzenie, zgubisz też swój portfel i Dashy.</b>
 			Zupełnie jak pieniądze w Twoim fizycznym portfelu.
 		</p>
 		<p>
-			<b>Zanim odinstalujesz Dash Wallet</b> (albo wymażesz dane aplikacji/wyczyścisz swoje urządzenie), <b>przetransferuj twoje Dash na inny portfel</b>.
-			Każdy pozostały Dash będzie stracony.
+			<b>Zanim odinstalujesz Unpay Wallet</b> (albo wymażesz dane aplikacji/wyczyścisz swoje urządzenie), <b>przetransferuj twoje Unpay na inny portfel</b>.
+			Każdy pozostały Unpay będzie stracony.
 		</p>
 		<p>
 			<b>Żadne transakcje nie mogą zostać cofnięte</b>.
@@ -102,7 +102,7 @@
 		</p>
 		<p>
 			Utrzymuj niskie ryzyko!
-			<b>Używaj Dash Wallet do przetrzymywania jedynie małych ilości Dash</b> do użytku codziennego.
+			<b>Używaj Unpay Wallet do przetrzymywania jedynie małych ilości Unpay</b> do użytku codziennego.
 		</p>
 	]]>
 	</string>

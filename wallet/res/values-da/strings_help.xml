@@ -4,12 +4,12 @@
 	<string name="help_wallet">
 <![CDATA[
 		<p>
-			Den øverste venstre del af skærmen viser din valgte Dash-adresse, som andre har brug for at vide for at sende
+			Den øverste venstre del af skærmen viser din valgte Unpay-adresse, som andre har brug for at vide for at sende
 			dig Dashs.
 			Berør for at ændre adresse.
 		</p>
 		<p>
-			QR-koden til højre indeholder din Dash-adresse og kan scannes af en anden person.
+			QR-koden til højre indeholder din Unpay-adresse og kan scannes af en anden person.
 			Berør QR-koden for at få en større version af den.
 		</p>
 		<p>
@@ -33,7 +33,7 @@
 	<string name="help_request_coins">
 <![CDATA[
 		<p>
-			Ved at bruge denne dialog kan du forespørge mønter fra en anden person (som allerede skal have installeret Dash Wallet).
+			Ved at bruge denne dialog kan du forespørge mønter fra en anden person (som allerede skal have installeret Unpay Wallet).
 		</p>
 		<p>
 			First kan du indtaste et antal Dashs til forespørgslen.
@@ -41,7 +41,7 @@
 		<p>
 			Bagefter får du enten QR-koden scannet af den anden person,
 			eller du kan sende din forespørgsel til en person over længere afstand med Del-knappen i action-bjælken.
-			Den anden person skal klikke på Dash-URL\'en.
+			Den anden person skal klikke på Unpay-URL\'en.
 		</p>
 		<p>
 			Den anden person vil præsenteres for en dialog for afsendelse af mønter med alle felter forudfyldt.
@@ -53,12 +53,12 @@
 <![CDATA[
 		<p>
 			Du har startet processen for at sende mønter.
-			Du kom hertil enten via hovedsskærmen eller ved at klikke på en Dash-URL i din molbilbrowser.
+			Du kom hertil enten via hovedsskærmen eller ved at klikke på en Unpay-URL i din molbilbrowser.
 		</p>
 		<p>
-			Først skriver du den Dash-adresse, du vil betale til.
+			Først skriver du den Unpay-adresse, du vil betale til.
 			Adressen vil autoudfyldes ud fra kendte indgange i din adressebog.
-			Du kan også scanne QR-koder med Dash-adresser eller Dash-forespørgsler ved at klikke på QR-knappen i action-bjælken.
+			Du kan også scanne QR-koder med Unpay-adresser eller Unpay-forespørgsler ved at klikke på QR-knappen i action-bjælken.
 		</p>
 		<p>
 			Dernæst kan du se, hvor mange Dashs du kan bruge i øjeblikket.
@@ -69,7 +69,7 @@
 		</p>
 		<p>
 			Du kan indtaste et beløb, mens du er offline.
-			Det vil blive sendt, næste gang Dash Wallet genstartes.
+			Det vil blive sendt, næste gang Unpay Wallet genstartes.
 			Hvis du vil have, at en betaling går igennem så hurtigt som muligt, så vær sikker på, at du er ordentligt forbundet (dvs. på et WLAN).
 		</p>
 		<p>

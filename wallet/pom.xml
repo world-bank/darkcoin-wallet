@@ -62,10 +62,8 @@
 		<!-- com.google.bitcoin.* -->
 		<dependency>
 			<groupId>com.google</groupId>
-
 			<artifactId>unpaycoinj</artifactId>
 			<version>0.10-SNAPSHOT</version>
-
 		</dependency>
 
 

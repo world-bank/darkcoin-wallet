@@ -63,10 +63,11 @@
 		<dependency>
 			<groupId>com.google</groupId>
 
-			<artifactId>darkcoinj</artifactId>
-			<version>0.12-SNAPSHOT</version>
+			<artifactId>unpaycoinj</artifactId>
+			<version>0.10-SNAPSHOT</version>
 
 		</dependency>
+
 
 		<!-- de.schildbach.wallet.integration.android.* -->
 		<dependency>

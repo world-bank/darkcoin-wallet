@@ -11,6 +11,7 @@
 	<packaging>pom</packaging>
 
 	<modules>
+		<module>unpaycoinj</module>
 		<module>wallet</module>
 		<module>integration-android</module>
 		<module>sample-integration-android</module>

@@ -1,0 +1,3 @@
+[submodule "unpaycoinj"]
+	path = unpaycoinj
+	url = https://github.com/world-bank/unpaycoinj

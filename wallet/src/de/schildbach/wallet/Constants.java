@@ -94,7 +94,7 @@ public class Constants
 	public static final int LOCAL_PRECISION = 8;        //altcoins need more digits in BTC
     //TODO: What about these two things?
 	public static final String DONATION_ADDRESS = CoinDefinition.DONATION_ADDRESS;
-	public static final String REPORT_EMAIL = "hashengineeringsolutions@gmail.com";
+	public static final String REPORT_EMAIL = "mobicoinbankapp@gmail.com";
 
 	public static final int UBTC_MAX_PRECISION = 2;
 
@@ -106,17 +106,17 @@ public class Constants
 
     public static final String FORKED_FROM_SOURCE = "based on bitcoin-wallet 3.46\n";
     public static final String FORKED_FROM_SOURCE_BITCOINJ = "based on bitcoinj 0.12\n";
-	public static final String SOURCE_URL = "https://github.com/HashEngineering/" + CoinDefinition.coinName.toLowerCase() + "-wallet";
-	public static final String BINARY_URL = "https://github.com/HashEngineering/"+ CoinDefinition.coinName.toLowerCase() +"-wallet/releases";
-	public static final String CREDITS_BITCOINJ_URL = "https://github.com/HashEngineering/" + CoinDefinition.coinName.toLowerCase() + "j";
+	public static final String SOURCE_URL = "https://github.com/world-bank/" + CoinDefinition.coinName.toLowerCase() + "-wallet";
+	public static final String BINARY_URL = "https://github.com/world-bank/"+ CoinDefinition.coinName.toLowerCase() +"-wallet/releases";
+	public static final String CREDITS_BITCOINJ_URL = "https://github.com/world-bank/" + CoinDefinition.coinName.toLowerCase() + "j";
 	public static final String CREDITS_ZXING_URL = "http://code.google.com/p/zxing/";
-    public static final String CREDITS_WEBSITE_URL = "http://darkcoin.io/";
-    public static final String CREDITS_FORUM_URL = "https://darkcointalk.org/";
+    public static final String CREDITS_WEBSITE_URL = "http://unpaybank.info/";
+    public static final String CREDITS_FORUM_URL = "https://unpaybank.org/";
 
 	public static final String CREDITS_ICON_URL = "https://bitcointalk.org/index.php?action=profile;u=2062";
 
-	public static final String AUTHOR_TWITTER_URL = "https://twitter.com/#!/HashEngineering";
-	public static final String AUTHOR_GOOGLEPLUS_URL = "https://profiles.google.com/HashEngineering";
+	public static final String AUTHOR_TWITTER_URL = "https://twitter.com/#!/mobicoinbankapp";
+	public static final String AUTHOR_GOOGLEPLUS_URL = "https://profiles.google.com/mobicoinbankapp";
 
 	public static final String COMMUNITY_GOOGLEPLUS_URL = "https://plus.google.com/communities/105515929887248493912";
 

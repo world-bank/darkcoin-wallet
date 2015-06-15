@@ -223,12 +223,12 @@ public final class WalletAddressesFragment extends SherlockListFragment
 						mode.finish();
 						return true;
 
-					case R.id.wallet_addresses_context_browse:
-						startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(Constants.EXPLORE_BASE_URL + Constants.EXPLORE_ADDRESS_PATH
-								+ getAddress(position).toString())));
-
-						mode.finish();
-						return true;
+//					case R.id.wallet_addresses_context_browse:
+//						startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(Constants.EXPLORE_BASE_URL + Constants.EXPLORE_ADDRESS_PATH
+//								+ getAddress(position).toString())));
+//
+//						mode.finish();
+//						return true;
 				}
 
 				return false;

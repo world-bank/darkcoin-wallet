@@ -314,9 +314,9 @@ public final class RequestCoinsFragment extends SherlockFragment
 				handleShare();
 				return true;
 
-			case R.id.request_coins_options_local_app:
-				handleLocalApp();
-				return true;
+//			case R.id.request_coins_options_local_app:
+//				handleLocalApp();
+//				return true;
 		}
 
 		return super.onOptionsItemSelected(item);

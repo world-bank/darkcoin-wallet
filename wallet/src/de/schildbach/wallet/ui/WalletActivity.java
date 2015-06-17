@@ -253,21 +253,21 @@ public final class WalletActivity extends AbstractOnDemandServiceActivity
 				startActivity(new Intent(this, PreferencesActivity.class));
 				return true;
 
-			case R.id.wallet_options_about:
-				startActivity(new Intent(this, AboutActivity.class));
-				return true;
-
-			case R.id.wallet_options_safety:
-				HelpDialogFragment.page(getSupportFragmentManager(), R.string.help_safety);
-				return true;
-
-			case R.id.wallet_options_donate:
-				handleDonate();
-				return true;
-
-			case R.id.wallet_options_help:
-				HelpDialogFragment.page(getSupportFragmentManager(), R.string.help_wallet);
-				return true;
+//			case R.id.wallet_options_about:
+//				startActivity(new Intent(this, AboutActivity.class));
+//				return true;
+//
+//			case R.id.wallet_options_safety:
+//				HelpDialogFragment.page(getSupportFragmentManager(), R.string.help_safety);
+//				return true;
+//
+//			case R.id.wallet_options_donate:
+//				handleDonate();
+//				return true;
+//
+//			case R.id.wallet_options_help:
+//				HelpDialogFragment.page(getSupportFragmentManager(), R.string.help_wallet);
+//				return true;
 		}
 
 		return super.onOptionsItemSelected(item);

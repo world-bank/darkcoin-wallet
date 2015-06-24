@@ -123,6 +123,11 @@
 	<string name="edit_address_book_entry_dialog_address_label">Address</string>
 	<string name="edit_address_book_entry_dialog_label_label">Name</string>
 	<string name="edit_address_book_entry_dialog_button_edit">Save</string>
+	<string name="delete_address_book_entry_dialog_title_delete">Delete address</string>
+	<string name="delete_address_book_entry_dialog_toast_cannot_delete">Cannot delete the address that have a balance</string>
+	<string name="delete_address_book_entry_dialog_address_label">Address</string>
+	<string name="delete_address_book_entry_dialog_label_label">Name</string>
+	<string name="delete_address_book_entry_dialog_button_delete">Delete</string>
 
     <string name="transaction_activity_title">Transaction</string>
     <string name="transaction_fragment_time_label">Date</string>

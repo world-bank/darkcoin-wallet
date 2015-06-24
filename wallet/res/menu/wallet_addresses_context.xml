@@ -8,6 +8,12 @@
 		android:title="@string/address_book_context_edit_title"
 		android:titleCondensed="@string/button_edit"/>
 	<item
+		android:id="@+id/wallet_addresses_context_delete"
+		android:icon="@drawable/ic_action_delete"
+		android:showAsAction="ifRoom|withText"
+		android:title="@string/address_book_context_remove_title"
+		android:titleCondensed="@string/button_delete"/>
+	<item
 		android:id="@+id/wallet_addresses_context_copy_to_clipboard"
 		android:icon="@drawable/ic_action_copy"
 		android:showAsAction="ifRoom|withText"

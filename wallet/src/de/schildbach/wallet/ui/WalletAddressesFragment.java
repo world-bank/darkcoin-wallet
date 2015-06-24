@@ -171,57 +171,57 @@ public final class WalletAddressesFragment extends SherlockListFragment
 	@Override
 	public void onListItemClick(final ListView l, final View v, final int position, final long id)
 	{
-		activity.startActionMode(new ActionMode.Callback()
-		{
-			@Override
-			public boolean onCreateActionMode(final ActionMode mode, final Menu menu)
-			{
-				final MenuInflater inflater = mode.getMenuInflater();
-				inflater.inflate(R.menu.wallet_addresses_context, menu);
+		activity.startActionMode(new ActionMode.Callback() {
+            @Override
+            public boolean onCreateActionMode(final ActionMode mode, final Menu menu) {
+                final MenuInflater inflater = mode.getMenuInflater();
+                inflater.inflate(R.menu.wallet_addresses_context, menu);
 
-				return true;
-			}
+                return true;
+            }
 
-			@Override
-			public boolean onPrepareActionMode(final ActionMode mode, final Menu menu)
-			{
-				final ECKey key = getKey(position);
+            @Override
+            public boolean onPrepareActionMode(final ActionMode mode, final Menu menu) {
+                final ECKey key = getKey(position);
 
-				final String address = key.toAddress(Constants.NETWORK_PARAMETERS).toString();
-				final String label = AddressBookProvider.resolveLabel(activity, address);
-				mode.setTitle(label != null ? label : WalletUtils.formatHash(address, Constants.ADDRESS_FORMAT_GROUP_SIZE, 0));
+                final String address = key.toAddress(Constants.NETWORK_PARAMETERS).toString();
+                final String label = AddressBookProvider.resolveLabel(activity, address);
+                mode.setTitle(label != null ? label : WalletUtils.formatHash(address, Constants.ADDRESS_FORMAT_GROUP_SIZE, 0));
 
-				return true;
-			}
+                return true;
+            }
 
-			@Override
-			public boolean onActionItemClicked(final ActionMode mode, final MenuItem item)
-			{
-				switch (item.getItemId())
-				{
-					case R.id.wallet_addresses_context_edit:
-						handleEdit(getAddress(position));
+            @Override
+            public boolean onActionItemClicked(final ActionMode mode, final MenuItem item) {
+                switch (item.getItemId()) {
+                    case R.id.wallet_addresses_context_edit:
+                        handleEdit(getAddress(position));
 
-						mode.finish();
-						return true;
+                        mode.finish();
+                        return true;
 
-					case R.id.wallet_addresses_context_show_qr:
-						handleShowQr(getAddress(position));
+                    case R.id.wallet_addresses_context_delete:
+                        handleDelete(getAddress(position));
+                        mode.finish();
+                        return true;
 
-						mode.finish();
-						return true;
+                    case R.id.wallet_addresses_context_show_qr:
+                        handleShowQr(getAddress(position));
 
-					case R.id.wallet_addresses_context_copy_to_clipboard:
-						handleCopyToClipboard(getAddress(position));
+                        mode.finish();
+                        return true;
 
-						mode.finish();
-						return true;
+                    case R.id.wallet_addresses_context_copy_to_clipboard:
+                        handleCopyToClipboard(getAddress(position));
 
-					case R.id.wallet_addresses_context_default:
-						handleDefault(getAddress(position));
+                        mode.finish();
+                        return true;
 
-						mode.finish();
-						return true;
+                    case R.id.wallet_addresses_context_default:
+                        handleDefault(getAddress(position));
+
+                        mode.finish();
+                        return true;
 
 //					case R.id.wallet_addresses_context_browse:
 //						startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(Constants.EXPLORE_BASE_URL + Constants.EXPLORE_ADDRESS_PATH
@@ -229,55 +229,62 @@ public final class WalletAddressesFragment extends SherlockListFragment
 //
 //						mode.finish();
 //						return true;
-				}
+                }
 
-				return false;
-			}
+                return false;
+            }
 
-			@Override
-			public void onDestroyActionMode(final ActionMode mode)
-			{
-			}
+            @Override
+            public void onDestroyActionMode(final ActionMode mode) {
+            }
 
-			private ECKey getKey(final int position)
-			{
-				return (ECKey) getListAdapter().getItem(position);
-			}
+            private ECKey getKey(final int position) {
+                return (ECKey) getListAdapter().getItem(position);
+            }
 
-			private Address getAddress(final int position)
-			{
-				return getKey(position).toAddress(Constants.NETWORK_PARAMETERS);
-			}
+            private Address getAddress(final int position) {
+                return getKey(position).toAddress(Constants.NETWORK_PARAMETERS);
+            }
 
-			private void handleEdit(@Nonnull final Address address)
-			{
-				EditAddressBookEntryFragment.edit(getFragmentManager(), address.toString());
-			}
+            private void handleEdit(@Nonnull final Address address) {
+                EditAddressBookEntryFragment.edit(getFragmentManager(), address.toString());
+            }
 
-			private void handleShowQr(@Nonnull final Address address)
-			{
-				final String uri = BitcoinURI.convertToBitcoinURI(address, null, null, null);
-				final int size = (int) (256 * getResources().getDisplayMetrics().density);
-				BitmapFragment.show(getFragmentManager(), Qr.bitmap(uri, size));
-			}
+            private void handleDelete(@Nonnull final Address address) {
+                DeleteAddressBookEntryFragment.delete(getFragmentManager(), address.toString());
 
-			private void handleCopyToClipboard(@Nonnull final Address address)
-			{
-				final ClipboardManager clipboardManager = (ClipboardManager) activity.getSystemService(Context.CLIPBOARD_SERVICE);
-				clipboardManager.setText(address.toString());
-				activity.toast(R.string.wallet_address_fragment_clipboard_msg);
-			}
+            }
 
-			private void handleDefault(@Nonnull final Address address)
-			{
-				final String addressStr = address.toString();
-				config.setSelectedAddress(addressStr);
-				adapter.setSelectedAddress(addressStr);
-			}
-		});
+            private void handleShowQr(@Nonnull final Address address) {
+                final String uri = BitcoinURI.convertToBitcoinURI(address, null, null, null);
+                final int size = (int) (256 * getResources().getDisplayMetrics().density);
+                BitmapFragment.show(getFragmentManager(), Qr.bitmap(uri, size));
+            }
+
+            private void handleCopyToClipboard(@Nonnull final Address address) {
+                final ClipboardManager clipboardManager = (ClipboardManager) activity.getSystemService(Context.CLIPBOARD_SERVICE);
+                clipboardManager.setText(address.toString());
+                activity.toast(R.string.wallet_address_fragment_clipboard_msg);
+            }
+
+            private void handleDefault(@Nonnull final Address address) {
+                final String addressStr = address.toString();
+                config.setSelectedAddress(addressStr);
+                adapter.setSelectedAddress(addressStr);
+            }
+        });
 	}
 
-	private void updateView()
+    public void updateKeys()
+    {
+        final WalletAddressesAdapter adapter = (WalletAddressesAdapter)getListAdapter();
+        if (adapter != null) {
+            adapter.replace(wallet.getKeys());
+            ((BaseAdapter) adapter).notifyDataSetChanged();
+        }
+    }
+
+    public void updateView()
 	{
 		final ListAdapter adapter = getListAdapter();
 		if (adapter != null)

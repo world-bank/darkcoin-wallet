@@ -17,6 +17,7 @@
 
 package de.schildbach.wallet.ui;
 
+import java.math.BigInteger;
 import java.text.DateFormat;
 import java.util.ArrayList;
 import java.util.Collection;
@@ -40,6 +41,7 @@ import com.google.bitcoin.core.Wallet;
 
 import de.schildbach.wallet.AddressBookProvider;
 import de.schildbach.wallet.Constants;
+import de.schildbach.wallet.util.GenericUtils;
 import de.schildbach.wallet.util.WalletUtils;
 import unpaybank.unpaycoin.wallet.R;
 
@@ -116,6 +118,7 @@ public class WalletAddressesAdapter extends BaseAdapter
 	{
 		final ECKey key = (ECKey) getItem(position);
 		final Address address = key.toAddress(Constants.NETWORK_PARAMETERS);
+		final BigInteger balance = wallet.getBalance(address);
 		final boolean isRotateKey = wallet.isKeyRotating(key);
 
 		if (row == null)
@@ -129,8 +132,18 @@ public class WalletAddressesAdapter extends BaseAdapter
 		addressView.setText(WalletUtils.formatAddress(address, Constants.ADDRESS_FORMAT_GROUP_SIZE, Constants.ADDRESS_FORMAT_LINE_SIZE));
 		addressView.setTextColor(isRotateKey ? colorInsignificant : colorSignificant);
 
+        final TextView balanceView = (TextView) row.findViewById(R.id.address_book_row_balance);
+        //balanceView.setAlwaysSigned(true);
+        //balanceView.setPrecision(0, 0);
+        balanceView.setText(GenericUtils.formatValue(balance, Constants.BTC_MAX_PRECISION, 0));
+        //balanceView.setText(balance.toString());
+        balanceView.setTextColor(isRotateKey ? colorInsignificant : colorSignificant);
+
+
 		final TextView labelView = (TextView) row.findViewById(R.id.address_book_row_label);
 		final String label = AddressBookProvider.resolveLabel(context, address.toString());
+		//final String valStr =   "(" + balance.toString() + ")";
+
 		if (label != null)
 		{
 			labelView.setText(label);

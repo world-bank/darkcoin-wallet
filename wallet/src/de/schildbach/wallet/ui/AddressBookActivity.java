@@ -133,7 +133,7 @@ public final class AddressBookActivity extends AbstractWalletActivity
 		return super.onOptionsItemSelected(item);
 	}
 
-	/* private */void updateFragments()
+	public void updateFragments()
 	{
 		final List<ECKey> keys = getWalletApplication().getWallet().getKeys();
 		final ArrayList<Address> addresses = new ArrayList<Address>(keys.size());
@@ -145,9 +145,14 @@ public final class AddressBookActivity extends AbstractWalletActivity
 		}
 
 		sendingAddressesFragment.setWalletAddresses(addresses);
-	}
+    }
 
-	private static class TwoFragmentAdapter extends PagerAdapter
+    public void updateAddressFragment()
+    {
+        walletAddressesFragment.updateKeys();
+    }
+
+    private static class TwoFragmentAdapter extends PagerAdapter
 	{
 		private final FragmentManager fragmentManager;
 		private final Fragment left;

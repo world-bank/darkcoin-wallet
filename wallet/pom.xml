@@ -8,7 +8,7 @@
 	<packaging>apk</packaging>
 
 	<version>1.0.0</version>
-	<name>Unpay Wallet</name>
+	<name>UNPay Wallet</name>
 
 
 	<parent>

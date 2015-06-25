@@ -6,13 +6,31 @@
 	android:measureWithLargestChild="true"
 	android:orientation="horizontal" >
 
+    <Button
+        android:id="@+id/wallet_actions_option"
+        style="@style/My.Widget.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/ic_action_option"
+        android:singleLine="false"
+        android:text="@string/button_option"
+        android:textAllCaps="true"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/font_size_tiny"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="0px"
+        android:layout_height="0px"
+        android:layout_weight="1" />
+
 	<Button
 		android:id="@+id/wallet_actions_request"
 		style="@style/My.Widget.Button.Borderless"
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
-		android:drawableLeft="@drawable/ic_action_receive"
-		android:singleLine="true"
+		android:drawableTop="@drawable/ic_action_receive"
+		android:singleLine="false"
 		android:text="@string/button_request_coins"
 		android:textAllCaps="true"
 		android:textColor="@android:color/white"
@@ -24,24 +42,42 @@
 		android:layout_height="0px"
 		android:layout_weight="1" />
 
-	<Button
-		android:id="@+id/wallet_actions_send"
-		style="@style/My.Widget.Button.Borderless"
-		android:layout_width="wrap_content"
-		android:layout_height="wrap_content"
-		android:drawableRight="@drawable/ic_action_send"
-		android:singleLine="true"
-		android:text="@string/button_send_coins"
-		android:textAllCaps="true"
-		android:textColor="@android:color/white"
-		android:textSize="@dimen/font_size_tiny"
-		android:textStyle="bold" />
+    <Button
+        android:id="@+id/wallet_actions_send"
+        style="@style/My.Widget.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/ic_action_send"
+        android:singleLine="false"
+        android:text="@string/button_send_coins"
+        android:textAllCaps="true"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/font_size_tiny"
+        android:textStyle="bold" />
 
-	<ImageButton
-		android:id="@+id/wallet_actions_send_qr"
-		style="@style/My.Widget.Button.Borderless"
-		android:layout_width="wrap_content"
-		android:layout_height="wrap_content"
-		android:src="@drawable/ic_action_camera" />
+    <View
+        android:layout_width="0px"
+        android:layout_height="0px"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/wallet_actions_send_qr"
+        style="@style/My.Widget.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/ic_action_camera"
+        android:singleLine="false"
+        android:text="@string/button_scan"
+        android:textAllCaps="true"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/font_size_tiny"
+        android:textStyle="bold" />
+
+	<!--<ImageButton-->
+		<!--android:id="@+id/wallet_actions_send_qr"-->
+		<!--style="@style/My.Widget.Button.Borderless"-->
+		<!--android:layout_width="wrap_content"-->
+		<!--android:layout_height="wrap_content"-->
+		<!--android:src="@drawable/ic_action_camera" />-->
 
 </LinearLayout>

@@ -12,10 +12,10 @@
 	<string name="blockchain_state_progress_stalled">Synchronization stalled</string>
 	<string name="blockchain_state_progress_problem_storage">Synchronizing: Storage problem</string>
 	<string name="blockchain_state_progress_problem_network">Synchronizing: Network problem</string>
-	<string name="wallet_address_fragment_your">Your Unpay Address:</string>
-	<string name="wallet_address_fragment_clipboard_msg">Unpay address copied to clipboard</string>
-	<string name="wallet_addresses_fragment_add_dialog_title">Add Unpay address</string>
-	<string name="wallet_addresses_fragment_add_dialog_message">Unpay addresses cannot be deleted. Do you want to add a new address to your wallet?</string>
+	<string name="wallet_address_fragment_your">Your UNPay Address:</string>
+	<string name="wallet_address_fragment_clipboard_msg">UNPay address copied to clipboard</string>
+	<string name="wallet_addresses_fragment_add_dialog_title">Add UNPay address</string>
+	<string name="wallet_addresses_fragment_add_dialog_message">UNPay addresses cannot be deleted. Do you want to add a new address to your wallet?</string>
 	<string name="wallet_balance_fragment_replaying">Balance is unavailable during replay.</string>
 	<string name="exchange_rates_activity_title">Exchange Rates</string>
 	<string name="exchange_rates_fragment_empty_text">Could not load exchange rates</string>
@@ -40,9 +40,9 @@
 	<string name="wallet_options_backup">Back up Keys</string>
 	<string name="wallet_options_safety">Safety notes</string>
 	<string name="wallet_options_donate">Tip / Donate</string>
-	<string name="wallet_donate_address_label">Donation for Unpay Wallet</string>
+	<string name="wallet_donate_address_label">Donation for UNPay Wallet</string>
 	<string name="wallet_low_storage_dialog_title">Internal Device Storage Space Low!</string>
-	<string name="wallet_low_storage_dialog_msg">Unpay Wallet uses internal storage for remembering transactions and blocks. If it runs out of space, it will stop working and your Unpays will be at risk!\n\nDo you want to open the Application Manager to uninstall unneeded apps?</string>
+	<string name="wallet_low_storage_dialog_msg">UNPay Wallet uses internal storage for remembering transactions and blocks. If it runs out of space, it will stop working and your Unpays will be at risk!\n\nDo you want to open the Application Manager to uninstall unneeded apps?</string>
 	<string name="wallet_low_storage_dialog_button_apps">Manage Apps</string>
 	<string name="wallet_timeskew_dialog_title">Check your time settings!</string>
 	<string name="wallet_timeskew_dialog_msg">Your device time is off by %d minutes. You probably cannot send or receive Unpays due to this problem.\n\nYou should check and correct your time and timezone settings.</string>
@@ -54,7 +54,7 @@
 	<string name="wallet_version_dialog_button_binary">Download</string>
 
 	<string name="wallet_old_sdk_dialog_title">Android version is out of date</string>
-	<string name="wallet_old_sdk_dialog_message">Chances are that one of the next releases of Unpay Wallet will not support your device any more. In some cases, it can get difficult to spend coins on this device.\n\nUnless you know what you are doing, it is recommended to move out your coins soon.</string>
+	<string name="wallet_old_sdk_dialog_message">Chances are that one of the next releases of UNPay Wallet will not support your device any more. In some cases, it can get difficult to spend coins on this device.\n\nUnless you know what you are doing, it is recommended to move out your coins soon.</string>
 	<string name="send_coins_activity_title">Send Unpays</string>
 	<string name="send_coins_fragment_request_payment_request_progress">Fetching signature from %s…</string>
 	<string name="send_coins_fragment_request_payment_request_failed_title">Fetching signature failed</string>
@@ -65,7 +65,7 @@
 
 	<string name="send_coins_fragment_receiving_address_label">Pay to</string>
 	<string name="send_coins_fragment_receiving_address_hint">type address or name</string>
-	<string name="send_coins_fragment_receiving_address_error">Invalid Unpay Address!</string>
+	<string name="send_coins_fragment_receiving_address_error">Invalid UNPay Address!</string>
 	<string name="send_coins_fragment_receiving_address_error_cross_network">Cannot use %s address with this wallet!</string>
 	<string name="send_coins_fragment_receiving_address_error_cross_network_unknown">Cannot use address of unknown network with this wallet!</string>
 
@@ -98,7 +98,7 @@
 	<string name="request_coins_fragment_initiate_request_qr">Have this code scanned by the sender.</string>
 	<string name="request_coins_fragment_initiate_request_nfc">Or tap an NFC enabled device.</string>
 
-	<string name="request_coins_clipboard_msg">Unpay request copied to clipboard</string>
+	<string name="request_coins_clipboard_msg">UNPay request copied to clipboard</string>
 	<string name="request_coins_share_dialog_title">Share request for Unpays…</string>
 
 	<string name="request_coins_options_local_app_title">Request from local app</string>
@@ -178,21 +178,21 @@
 	<string name="export_keys_dialog_success">Your private keys have been backed up to\n\n%s\n\nKeep them safe, and keep your password safe!\n\nDo you want to archive your keys using an app?</string>
 	<string name="export_keys_dialog_failure">Your private keys could not be backed up:\n%s</string>
 	<string name="export_keys_dialog_button_archive">Archive</string>
-	<string name="export_keys_dialog_mail_subject">Unpay Wallet private key backup</string>
-	<string name="export_keys_dialog_mail_text">The attached encrypted file contains Unpay private keys and should be kept safe at all times. Don\'t forget the encryption password!</string>
+	<string name="export_keys_dialog_mail_subject">UNPay Wallet private key backup</string>
+	<string name="export_keys_dialog_mail_text">The attached encrypted file contains UNPay private keys and should be kept safe at all times. Don\'t forget the encryption password!</string>
 	<string name="export_keys_dialog_mail_intent_chooser">Archive keys using…</string>
 	<string name="export_keys_dialog_mail_intent_failed">Archiving keys failed.</string>
 	<string name="import_export_keys_dialog_password">password</string>
 	<string name="import_export_keys_dialog_show">Show password</string>
 	<string name="import_export_keys_dialog_failure_title">Error</string>
-	<string name="import_keys_intent_filter_action">Unpay key restore</string>
+	<string name="import_keys_intent_filter_action">UNPay key restore</string>
 	<string name="scan_camera_problem_dialog_title">Sorry</string>
 	<string name="scan_camera_problem_dialog_message">The camera has a problem. You probably need to restart the device.</string>
 	<string name="input_parser_io_error">Cannot read data:\n%s</string>
 	<string name="input_parser_cannot_classify">Cannot classify input:\n%s</string>
 
-	<string name="input_parser_invalid_bitcoin_uri">Invalid Unpay URI:\n%s</string>
-	<string name="input_parser_invalid_address">Got invalid Unpay address!\n(Mixing up Mainnet/Testnet?)</string>
+	<string name="input_parser_invalid_bitcoin_uri">Invalid UNPay URI:\n%s</string>
+	<string name="input_parser_invalid_address">Got invalid UNPay address!\n(Mixing up Mainnet/Testnet?)</string>
 	<string name="input_parser_unverifyable_paymentrequest">Cannot verify payment request:\n%s</string>
 
 	<string name="input_parser_invalid_paymentrequest">Invalid payment request:\n%s</string>
@@ -236,8 +236,8 @@
 	<string name="about_credits_zxing_title">"This app is using 'zxing'"</string>
 
 	<string name="about_credits_icon_title">"This app is using an icon by 'tjb0607'"</string>
-    <string name="about_credits_website_title">"Unpay Website"</string>
-    <string name="about_credits_forum_title">"Unpay Forum"</string>
+    <string name="about_credits_website_title">"UNPay Website"</string>
+    <string name="about_credits_forum_title">"UNPay Forum"</string>
 
 
 	<string name="about_community_googleplus_title">Google+ Community</string>
@@ -266,8 +266,9 @@
 	<string name="button_paste">Paste</string>
 	<string name="button_share">Share</string>
 	<string name="button_set_as_default">Set as default</string>
-	<string name="button_request_coins">Request coins</string>
-	<string name="button_send_coins">Send coins</string>
+	<string name="button_request_coins">Receive</string>
+	<string name="button_send_coins">Send</string>
+	<string name="button_option">Option</string>
 	<string name="button_scan">Scan</string>
 	<string name="button_edit_address">Add/edit address</string>
 	<string name="button_settings">Settings</string>

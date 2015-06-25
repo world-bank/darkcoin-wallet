@@ -4,11 +4,11 @@
 	<string name="help_wallet">
 <![CDATA[
 		<p>
-			La parte in alto a sinistra dello schermo mostra gli indirizzo Unpay che le altre persone hanno bisogno per poterti inviare dei Unpay.
+			La parte in alto a sinistra dello schermo mostra gli indirizzo UNPay che le altre persone hanno bisogno per poterti inviare dei UNPay.
 			Premi per cambiare l\'indirizzo.
 		</p>
 		<p>
-			Il codice QR sulla destra contiene il tuo indirizzo Unpay e può essere usato per farlo leggere ad altri.
+			Il codice QR sulla destra contiene il tuo indirizzo UNPay e può essere usato per farlo leggere ad altri.
 			Premi sul codice per visualizzarne una versione più grande.
 		</p>
 		<p>
@@ -31,19 +31,19 @@
 	<string name="help_request_coins">
 <![CDATA[
 		<p>
-			Utilizzando questa finestra puoi richiedere dei Unpay ad un\'altra persona
-			(che dovrebbe aver già installato Unpay Wallet).
+			Utilizzando questa finestra puoi richiedere dei UNPay ad un\'altra persona
+			(che dovrebbe aver già installato UNPay Wallet).
 		</p>
 		<p>
-			Come prima cosa puoi inserire il numero di Unpay da richiedere.
+			Come prima cosa puoi inserire il numero di UNPay da richiedere.
 		</p>
 		<p>
 			Poi puoi generare dei codici QR da far acquisire all\'altra persona.
 			Oppure puoi inviare la richiesta con il tasto "condividi" nella barra azioni.
-			La persona che riceve la richiesta dovrà cliccare l\'URL Unpay.
+			La persona che riceve la richiesta dovrà cliccare l\'URL UNPay.
 		</p>
 		<p>
-			In ogni modo alla persona ricevente verrà presentata un modulo precompilato per inviare i Unpay.
+			In ogni modo alla persona ricevente verrà presentata un modulo precompilato per inviare i UNPay.
 			Per confermare l\'invio dovrà solo accettare la transazione.
 		</p>
 	]]>
@@ -52,23 +52,23 @@
 <![CDATA[
 		<p>
 			Hai iniziato il processo per inviare Dashs.
-			Sei giunto qui a partire dalla schermata principale o cliccando su di un URL Unpay dal tuo browser.
+			Sei giunto qui a partire dalla schermata principale o cliccando su di un URL UNPay dal tuo browser.
 		</p>
 		<p>
-			Come prima cosa è necessario inserire l\'indirizzo Unpay a cui inviare.
+			Come prima cosa è necessario inserire l\'indirizzo UNPay a cui inviare.
 			L\'indirizzo si autocompleterà in base al contenuto della tua rubrica.
-			Puoi anche acquisire un codice QR che contiene indirizzi Unpay o richieste Unpay premendo il tasto QR sulla barra azioni.
+			Puoi anche acquisire un codice QR che contiene indirizzi UNPay o richieste UNPay premendo il tasto QR sulla barra azioni.
 		</p>
 		<p>
-			Ti è poi possibile visualizzare quanti Unpay puoi spendere.
+			Ti è poi possibile visualizzare quanti UNPay puoi spendere.
 			Eventuali differenze con il saldo visualizzato sulla schermata principale fanno parte di transazioni
 			non ancora confermate il cui importo non può quindi essere ancora utilizzato.
 		</p>
 		<p>
-			Puoi infine inserire il numero di Unpay da inviare.
+			Puoi infine inserire il numero di UNPay da inviare.
 		</p>
 		<p>
-			Puoi inserire una transazione anche senza collegamento ad Internet, verrà inviata alla prossima esecuzione di Unpay Wallet.
+			Puoi inserire una transazione anche senza collegamento ad Internet, verrà inviata alla prossima esecuzione di UNPay Wallet.
 			Se vuoi che la transazione venga processata il prima possibile assicurati di avere un buon collegamento ad Internet.
 		</p>
 		<p>
@@ -84,17 +84,17 @@
 			<b>Alcune informazioni riguardo la sicurezza relativa ai vostri Dashs:</b>
 		</p>
 		<p>
-			I Dashs di Unpay Wallet vengono memorizzati sul dispositivo.
-			<b>Se perdi il dispositivo, perdi i tuoi Unpay.</b>
+			I Dashs di UNPay Wallet vengono memorizzati sul dispositivo.
+			<b>Se perdi il dispositivo, perdi i tuoi UNPay.</b>
 			Esattamente come denaro nel tuo vero portafoglio.
 		</p>
 		<p>
-			<b>Prima di disinstallare Unpay Wallet</b> (o cancellare i dati dell\'applicazione o del dispositivo), <b>trasferisci i tuoi Dashs ad un altro portafoglio</b>.
-			Eventuali Unpay non trasferiti saranno persi per sempre.
+			<b>Prima di disinstallare UNPay Wallet</b> (o cancellare i dati dell\'applicazione o del dispositivo), <b>trasferisci i tuoi Dashs ad un altro portafoglio</b>.
+			Eventuali UNPay non trasferiti saranno persi per sempre.
 		</p>
 		<p>
 			<b>I pagamenti non possono essere annullate</b>.
-			Se invi i tuoi Unpay ad indirizzi errati non c\'è modo di riaverli indietro
+			Se invi i tuoi UNPay ad indirizzi errati non c\'è modo di riaverli indietro
 			a meno che tu non conosca il ricevente e che sia disponibile a restituirli.
 		</p>
 		<p>
@@ -104,7 +104,7 @@
 		</p>
 		<p>
 			Tieni basso il rischio!
-			<b>Usa Unpay Wallet solo con piccoli importi</b> sufficienti per l\'uso quotidiano.
+			<b>Usa UNPay Wallet solo con piccoli importi</b> sufficienti per l\'uso quotidiano.
 		</p>
 	]]>
 	</string>

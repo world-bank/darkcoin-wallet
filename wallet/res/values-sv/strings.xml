@@ -11,10 +11,10 @@
 	<string name="blockchain_state_progress_stalled">förhindrad</string>
 	<string name="blockchain_state_progress_problem_storage">Blockkedjan laddas inte ner: lagringsproblem</string>
 	<string name="blockchain_state_progress_problem_network">Blockkedjan laddas inte ner: Nätverksproblem</string>
-	<string name="wallet_address_fragment_your">Din Unpay adress:</string>
-	<string name="wallet_address_fragment_clipboard_msg">Unpay adressen kopierad till klippbordet</string>
-	<string name="wallet_addresses_fragment_add_dialog_title">Lägg till Unpay adress</string>
-	<string name="wallet_addresses_fragment_add_dialog_message">Unpay adresser kan inte tas bort. Vill du lägga till en ny adress till din plånbok?</string>
+	<string name="wallet_address_fragment_your">Din UNPay adress:</string>
+	<string name="wallet_address_fragment_clipboard_msg">UNPay adressen kopierad till klippbordet</string>
+	<string name="wallet_addresses_fragment_add_dialog_title">Lägg till UNPay adress</string>
+	<string name="wallet_addresses_fragment_add_dialog_message">UNPay adresser kan inte tas bort. Vill du lägga till en ny adress till din plånbok?</string>
 	<string name="exchange_rates_fragment_empty_text">Kunde inte ladda ner växlingskurser</string>
 	<string name="exchange_rates_context_set_as_default_title">Ange som standard utländsk valuta</string>
 	<string name="wallet_transactions_fragment_tab_received">Mottagna</string>
@@ -26,7 +26,7 @@
 	<string name="wallet_options_safety">Säkerhetsinfo</string>
 	<string name="wallet_options_donate">Donera</string>
 	<string name="wallet_low_storage_dialog_title">Interna utrymmet på telefonen börjar ta slut!</string>
-	<string name="wallet_low_storage_dialog_msg">Unpay Wallet använder internt utrymme för att spara transaktioner och block. Om den får slut på utrymme så kommer den att sluta fungera, och dina Dashs kan försvinna!\n\nVill du öppna Applikationshanteraren för att avinstallera onödiga appar?</string>
+	<string name="wallet_low_storage_dialog_msg">UNPay Wallet använder internt utrymme för att spara transaktioner och block. Om den får slut på utrymme så kommer den att sluta fungera, och dina Dashs kan försvinna!\n\nVill du öppna Applikationshanteraren för att avinstallera onödiga appar?</string>
 	<string name="wallet_low_storage_dialog_button_apps">Hantera appar</string>
 	<string name="wallet_timeskew_dialog_title">Kontrollera dina tidsinställningar!</string>
 	<string name="wallet_timeskew_dialog_msg">Enhetens tid är fel med %d minuter. Du kan förmodligen inte skicka eller ta emot Dashs på grund av detta problemet.\n\nDu bör kontrollera och korrigera tiden och tidszonen.</string>
@@ -38,7 +38,7 @@
 	<string name="send_coins_activity_title">Skicka Dashs</string>
 	<string name="send_coins_fragment_receiving_address_label">Skicka till</string>
 	<string name="send_coins_fragment_receiving_address_hint">skriv adress eller namn</string>
-	<string name="send_coins_fragment_receiving_address_error">Ogiltig Unpay adress!</string>
+	<string name="send_coins_fragment_receiving_address_error">Ogiltig UNPay adress!</string>
 	<string name="send_coins_fragment_receiving_address_error_cross_network">Kan inte använda %s adressen med denna plånbok!</string>
 	<string name="send_coins_fragment_receiving_address_error_cross_network_unknown">Kan inte använda adressen från det okända nätverket med denna plånbok!</string>
 	<string name="send_coins_fragment_pending">(%s UNP väntar på att bekräftas)</string>
@@ -56,7 +56,7 @@
 	<string name="request_coins_fragment_amount_label">Begärt belopp (frivilligt)</string>
 	<string name="request_coins_fragment_initiate_request_qr">Den som skickar dig Dashs ska scanna denna kod.</string>
 	<string name="request_coins_fragment_initiate_request_nfc">Eller skicka med en telefon som har NFC.</string>
-	<string name="request_coins_clipboard_msg">Förfrågan om Unpay kopierades till klippbordet</string>
+	<string name="request_coins_clipboard_msg">Förfrågan om UNPay kopierades till klippbordet</string>
 	<string name="request_coins_share_dialog_title">Dela en förfrågan om Dashs…</string>
 	<string name="address_book_activity_title">Adressbok</string>
 	<string name="address_book_list_receiving_title">Dina adresser</string>

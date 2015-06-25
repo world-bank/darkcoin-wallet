@@ -3,10 +3,10 @@
 
 	<string name="toast_wallet_reset">Wallet is gereset,\nherstel zal enige tijd duren</string>
 	<string name="wallet_disclaimer_fragment_remind_safety">Gebruik op eigen risico. Lees de &lt;u&gt;veiligheids voorschriften&lt;/u&gt;.</string>
-	<string name="wallet_address_fragment_your">Uw Unpay Adres:</string>
+	<string name="wallet_address_fragment_your">Uw UNPay Adres:</string>
 	<string name="wallet_address_fragment_clipboard_msg">Bitcoin adres gekopieërd naar klembord</string>
-	<string name="wallet_addresses_fragment_add_dialog_title">Voeg Unpay Adres toe</string>
-	<string name="wallet_addresses_fragment_add_dialog_message">Unpay adres kan niet verwijderd worden. Wilt u een nieuw adres toevoeggen aan uw wallet?</string>
+	<string name="wallet_addresses_fragment_add_dialog_title">Voeg UNPay Adres toe</string>
+	<string name="wallet_addresses_fragment_add_dialog_message">UNPay adres kan niet verwijderd worden. Wilt u een nieuw adres toevoeggen aan uw wallet?</string>
 	<string name="exchange_rates_fragment_empty_text">Kan geen wisselkoersen laden</string>
 	<string name="wallet_transactions_fragment_tab_received">Ontvangen</string>
 	<string name="wallet_transactions_fragment_tab_all">Beide</string>
@@ -16,14 +16,14 @@
 	<string name="wallet_options_safety">Veiligheids voorschriften</string>
 	<string name="wallet_options_donate">Doneren</string>
 	<string name="wallet_low_storage_dialog_title">Interne opslagruimte van het apparaat is laag!</string>
-	<string name="wallet_low_storage_dialog_msg">Unpay Wallet gebruikt interne opslag voor het bewaren van transacties en blokken. Als er onvoldoende opslag ruimte is zal het programma niet juist meer werken en zijn uw Dashs in gevaar!\n\nWilt u Applicatie beheer openen om overbodige applicaties te verwijderen?</string>
+	<string name="wallet_low_storage_dialog_msg">UNPay Wallet gebruikt interne opslag voor het bewaren van transacties en blokken. Als er onvoldoende opslag ruimte is zal het programma niet juist meer werken en zijn uw Dashs in gevaar!\n\nWilt u Applicatie beheer openen om overbodige applicaties te verwijderen?</string>
 	<string name="wallet_low_storage_dialog_button_apps">Applicatie beheer</string>
 
 	<string name="send_coins_activity_title">Verzend Dashs</string>
 	<string name="send_coins_fragment_receiving_address_label">Betalen naar</string>
 	<string name="send_coins_fragment_receiving_address_hint">typ adres of naam</string>
 
-	<string name="send_coins_fragment_receiving_address_error">Ongeldig Unpay Adres!</string>
+	<string name="send_coins_fragment_receiving_address_error">Ongeldig UNPay Adres!</string>
 	<string name="send_coins_fragment_pending">(UNP %s wachtend op bevestiging)</string>
 
 	<string name="send_coins_fragment_amount_label">Bedrag te betalen</string>
@@ -34,7 +34,7 @@
 	<string name="request_coins_fragment_amount_label">Verzocht bedrag (optioneel)</string>
 	<string name="request_coins_fragment_initiate_request_qr">Laat deze code scannen door de zender.</string>
 	<string name="request_coins_fragment_initiate_request_nfc">of raak aan met een NFC gereed apparaat.</string>
-	<string name="request_coins_clipboard_msg">Unpay verzoek gekopieërd naar klembord</string>
+	<string name="request_coins_clipboard_msg">UNPay verzoek gekopieërd naar klembord</string>
 	<string name="request_coins_share_dialog_title">Deel verzoek voor Dashs…</string>
 	<string name="address_book_activity_title">Adresboek</string>
 	<string name="address_book_empty_text">Geen vermeldingen in het adresboek</string>

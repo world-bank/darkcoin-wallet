@@ -12,10 +12,10 @@
 	<string name="blockchain_state_progress_stalled">Sincronizzazione bloccata</string>
 	<string name="blockchain_state_progress_problem_storage">Sincronizzazione: problema di Memorizzazione</string>
 	<string name="blockchain_state_progress_problem_network">Sincronizzazione: problema di Rete</string>
-	<string name="wallet_address_fragment_your">Il tuo indirizzo Unpay:</string>
-	<string name="wallet_address_fragment_clipboard_msg">Indirizzo Unpay copiato negli appunti</string>
-	<string name="wallet_addresses_fragment_add_dialog_title">Aggiungi un indirizzo Unpay</string>
-	<string name="wallet_addresses_fragment_add_dialog_message">Gli indirizzi Unpay non possono essere cancellati. Ne vuoi aggiungere uno nuovo?</string>
+	<string name="wallet_address_fragment_your">Il tuo indirizzo UNPay:</string>
+	<string name="wallet_address_fragment_clipboard_msg">Indirizzo UNPay copiato negli appunti</string>
+	<string name="wallet_addresses_fragment_add_dialog_title">Aggiungi un indirizzo UNPay</string>
+	<string name="wallet_addresses_fragment_add_dialog_message">Gli indirizzi UNPay non possono essere cancellati. Ne vuoi aggiungere uno nuovo?</string>
 	<string name="wallet_balance_fragment_replaying">Il conto non è disponibile durante la ripetizione.</string>
 	<string name="exchange_rates_activity_title">Tassi di cambio</string>
 	<string name="exchange_rates_fragment_empty_text">Impossibile acquisire quotazioni di cambio</string>
@@ -27,9 +27,9 @@
 	<string name="wallet_transactions_fragment_tab_received">Ricevuto</string>
 	<string name="wallet_transactions_fragment_tab_all">Entrambi</string>
 	<string name="wallet_transactions_fragment_tab_sent">Inviato</string>
-	<string name="wallet_transactions_fragment_empty_text_received">Nessun Unpay ancora ricevuto</string>
-	<string name="wallet_transactions_fragment_empty_text_sent">Nessun Unpay ancora inviato</string>
-	<string name="wallet_transactions_fragment_empty_text_howto">Come ottenere Unpay?\n\nBarattali per soldi tradizionali,\nvendi beni o servizi oppure\nricavali lavorando.</string>
+	<string name="wallet_transactions_fragment_empty_text_received">Nessun UNPay ancora ricevuto</string>
+	<string name="wallet_transactions_fragment_empty_text_sent">Nessun UNPay ancora inviato</string>
+	<string name="wallet_transactions_fragment_empty_text_howto">Come ottenere UNPay?\n\nBarattali per soldi tradizionali,\nvendi beni o servizi oppure\nricavali lavorando.</string>
 	<string name="wallet_transactions_row_warning_backup">Congratulazioni, hai ricevuto i tuoi primi pagamenti! Hai già &lt;u&gt;eseguito un backup del tuo portafoglio &lt;/u&gt;, per proteggerlo dai danni?</string>
 	<string name="wallet_transactions_fragment_coinbase">minato</string>
 	<string name="wallet_transactions_fragment_internal">Interna</string>
@@ -37,9 +37,9 @@
 	<string name="wallet_options_backup">Backup delle Chiavi</string>
 	<string name="wallet_options_safety">Note di sicurezza</string>
 	<string name="wallet_options_donate">Donazioni</string>
-	<string name="wallet_donate_address_label">Donazione per Unpay Wallet</string>
+	<string name="wallet_donate_address_label">Donazione per UNPay Wallet</string>
 	<string name="wallet_low_storage_dialog_title">Spazio di memorizzazione interno quasi esaurito!</string>
-	<string name="wallet_low_storage_dialog_msg">Unpay Wallet usa una memoria interna per memorizzare transazioni e blocchi. Se si esaurisce lo spazio, smetterà di funzionare e i tuoi Unpay saranno a rischio!\n\nVuoi aprire il Gestore delle Applicazioni per disinstallare app non necessarie?</string>
+	<string name="wallet_low_storage_dialog_msg">UNPay Wallet usa una memoria interna per memorizzare transazioni e blocchi. Se si esaurisce lo spazio, smetterà di funzionare e i tuoi UNPay saranno a rischio!\n\nVuoi aprire il Gestore delle Applicazioni per disinstallare app non necessarie?</string>
 	<string name="wallet_low_storage_dialog_button_apps">Gestisci applicazioni</string>
 	<string name="wallet_timeskew_dialog_title">Controlla data e ora!</string>
 
@@ -62,7 +62,7 @@
 
 	<string name="send_coins_fragment_receiving_address_label">Paga a</string>
 	<string name="send_coins_fragment_receiving_address_hint">inserisci indirizzo o nome</string>
-	<string name="send_coins_fragment_receiving_address_error">Indirizzo Unpay invalido!</string>
+	<string name="send_coins_fragment_receiving_address_error">Indirizzo UNPay invalido!</string>
 	<string name="send_coins_fragment_receiving_address_error_cross_network">Non puoi usare l\'indirizzo %s con questo portafoglio!</string>
 	<string name="send_coins_fragment_receiving_address_error_cross_network_unknown">Non puoi usare l\'indirizzo di una rete sconosciuta con questo portafoglio!</string>
 	<string name="send_coins_fragment_receiving_address_complex">complesso\nindirizzo</string>
@@ -91,7 +91,7 @@
 	<string name="request_coins_fragment_accept_bluetooth_payment">Accettazione pagamento via Bluetooth per un procedimento più affidabile</string>
 	<string name="request_coins_fragment_initiate_request_qr">Questo codice deve essere scansionato dal mittente.</string>
 	<string name="request_coins_fragment_initiate_request_nfc">Oppure tocca un dispositivo abilitato per NFC.</string>
-	<string name="request_coins_clipboard_msg">Richiesta Unpay copiata negli appunti</string>
+	<string name="request_coins_clipboard_msg">Richiesta UNPay copiata negli appunti</string>
 	<string name="request_coins_share_dialog_title">Condividi richiesta di Dashs…</string>
 
 	<string name="request_coins_options_local_app_title">Richiesta dall\'app locale</string>
@@ -149,20 +149,20 @@
 	<string name="export_keys_dialog_success">Le tue chiavi private sono state salvate con un backup a\n\n%s\n\nMantienile sicure, e mantieni sicura anche la tua password!\n\nVuoi archiviare le tue chiavi usando un\'app?</string>
 	<string name="export_keys_dialog_failure">Le tue chiavi private potrebbero non essere salvate con il backup:\n%s</string>
 	<string name="export_keys_dialog_button_archive">Archivio</string>
-	<string name="export_keys_dialog_mail_subject">Backup della chiave pubblica Unpay Wallet</string>
-	<string name="export_keys_dialog_mail_text">Il file cifrato allegato contiene chiavi private Unpay e dovrebbe essere mantenuto sicuro in ogni momento. Non dimenticarti la password per la crittografia!</string>
+	<string name="export_keys_dialog_mail_subject">Backup della chiave pubblica UNPay Wallet</string>
+	<string name="export_keys_dialog_mail_text">Il file cifrato allegato contiene chiavi private UNPay e dovrebbe essere mantenuto sicuro in ogni momento. Non dimenticarti la password per la crittografia!</string>
 	<string name="export_keys_dialog_mail_intent_chooser">Archiviazione delle chiavi…</string>
 	<string name="export_keys_dialog_mail_intent_failed">Archiviazione delle chiavi fallita.</string>
 	<string name="import_export_keys_dialog_password">password</string>
 	<string name="import_export_keys_dialog_show">Mostra password</string>
 	<string name="import_export_keys_dialog_failure_title">Errore</string>
-	<string name="import_keys_intent_filter_action">Ripristina la chiave Unpay</string>
+	<string name="import_keys_intent_filter_action">Ripristina la chiave UNPay</string>
 	<string name="scan_camera_problem_dialog_title">Scusa</string>
 	<string name="scan_camera_problem_dialog_message">La videocamera ha un problema. Probabilmente è necessario riavviare il dispositivo.</string>
 
 	<string name="input_parser_io_error">Impossibile leggere i dati:\n%s</string>
 	<string name="input_parser_cannot_classify">Impossibile classificare ingresso:\n%s</string>
-	<string name="input_parser_invalid_bitcoin_uri">URI Unpay non valido:\n%s</string>
+	<string name="input_parser_invalid_bitcoin_uri">URI UNPay non valido:\n%s</string>
 	<string name="input_parser_invalid_address">Ricevuto indirizzo bitcoin non valido!\n(Hai mescolato Mainnet/Testnet?)</string>
 	<string name="input_parser_unverifyable_paymentrequest">Impossibile verificare la richiesta di pagamento:\n%s</string>
 	<string name="input_parser_invalid_paymentrequest">Richiesta di pagamento invalida:\n%s</string>

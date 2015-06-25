@@ -69,12 +69,20 @@ public final class WalletActionsFragment extends Fragment
 		});
 
 		final View sendQrButton = view.findViewById(R.id.wallet_actions_send_qr);
-		sendQrButton.setOnClickListener(new OnClickListener()
+		sendQrButton.setOnClickListener(new OnClickListener() {
+			@Override
+			public void onClick(final View v) {
+				activity.handleScan();
+			}
+		});
+
+		final View optionButton = view.findViewById(R.id.wallet_actions_option);
+		optionButton.setOnClickListener(new OnClickListener()
 		{
 			@Override
 			public void onClick(final View v)
 			{
-				activity.handleScan();
+				activity.handleOption();
 			}
 		});
 

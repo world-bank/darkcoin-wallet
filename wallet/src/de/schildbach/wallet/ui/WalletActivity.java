@@ -288,6 +288,11 @@ public final class WalletActivity extends AbstractOnDemandServiceActivity
 		startActivityForResult(new Intent(this, ScanActivity.class), REQUEST_CODE_SCAN);
 	}
 
+	public void handleOption()
+	{
+		startActivity(new Intent(this, PreferencesActivity.class));
+	}
+
 	public void handleExportKeys()
 	{
 		showDialog(DIALOG_EXPORT_KEYS);

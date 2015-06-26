@@ -182,6 +182,18 @@
 	<string name="export_keys_dialog_mail_text">The attached encrypted file contains UNPay private keys and should be kept safe at all times. Don\'t forget the encryption password!</string>
 	<string name="export_keys_dialog_mail_intent_chooser">Archive keys using…</string>
 	<string name="export_keys_dialog_mail_intent_failed">Archiving keys failed.</string>
+
+	<string name="suggest_dialog_title">Suggest UNPay Wallet</string>
+	<string name="suggest_dialog_message">Your private keys will be encrypted with the chosen password and written to external storage.</string>
+	<string name="suggest_dialog_button_export">Back up</string>
+	<string name="suggest_dialog_success">Your suggestion sent to your friends.\n\nDo you want to send your suggestion?</string>
+	<string name="suggest_dialog_failure">Your suggestion could not be send to:\n%s</string>
+	<string name="suggest_dialog_button_suggest">Suggest</string>
+	<string name="suggest_dialog_mail_subject">Suggest UNPay Wallet</string>
+	<string name="suggest_dialog_mail_text">UNPay Wallet is a decentralized cryptocurrency wallet. You can download and install this wallet app from our web site.</string>
+	<string name="suggest_dialog_mail_intent_chooser">Suggest using…</string>
+	<string name="suggest_dialog_mail_intent_failed">Suggesting failed.</string>
+
 	<string name="import_export_keys_dialog_password">password</string>
 	<string name="import_export_keys_dialog_show">Show password</string>
 	<string name="import_export_keys_dialog_failure_title">Error</string>
@@ -268,6 +280,7 @@
 	<string name="button_set_as_default">Set as default</string>
 	<string name="button_request_coins">Receive</string>
 	<string name="button_send_coins">Send</string>
+	<string name="button_suggest">Suggest</string>
 	<string name="button_option">Option</string>
 	<string name="button_scan">Scan</string>
 	<string name="button_edit_address">Add/edit address</string>

@@ -76,13 +76,13 @@ public final class WalletActionsFragment extends Fragment
 			}
 		});
 
-		final View optionButton = view.findViewById(R.id.wallet_actions_option);
-		optionButton.setOnClickListener(new OnClickListener()
+		final View suggestButton = view.findViewById(R.id.wallet_actions_suggest);
+		suggestButton.setOnClickListener(new OnClickListener()
 		{
 			@Override
 			public void onClick(final View v)
 			{
-				activity.handleOption();
+				activity.handleSuggest();
 			}
 		});
 

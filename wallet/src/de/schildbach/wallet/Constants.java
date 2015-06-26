@@ -65,6 +65,7 @@ public class Constants
 	//public static final String MIMETYPE_PAYMENTACK = "application/"+ CoinDefinition.coinTicker.toLowerCase() +"-paymentack"; // BIP 71
 	public static final String MIMETYPE_TRANSACTION = "application/x-" + CoinDefinition.coinTicker.toLowerCase() + "tx";
 	public static final String MIMETYPE_BACKUP_PRIVATE_KEYS = "x-"+CoinDefinition.coinName.toLowerCase()+"/private-keys";
+	public static final String MIMETYPE_SUGGEST = "text/html";
 
 
 	public static final int MAX_NUM_CONFIRMATIONS = 7;
@@ -122,7 +123,9 @@ public class Constants
 
 	public static final String MARKET_APP_URL = "market://details?id=%s";
 	public static final String WEBMARKET_APP_URL = "https://play.google.com/store/apps/details?id=%s";
+	public static final String WEBDOWNLOAD_APP_URL = "http://www.unpaybank.org";
 	public static final String MARKET_PUBLISHER_URL = "market://search?q=pub:\"Hash Engineering Solutions\"";
+
 
 	public static final String VERSION_URL = "http://wallet.schildbach.de/version";
 	public static final int HTTP_TIMEOUT_MS = 15 * (int) DateUtils.SECOND_IN_MILLIS;

@@ -7,13 +7,13 @@
 	android:orientation="horizontal" >
 
     <Button
-        android:id="@+id/wallet_actions_option"
+        android:id="@+id/wallet_actions_suggest"
         style="@style/My.Widget.Button.Borderless"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:drawableTop="@drawable/ic_action_option"
+        android:drawableTop="@drawable/ic_action_suggest"
         android:singleLine="false"
-        android:text="@string/button_option"
+        android:text="@string/button_suggest"
         android:textAllCaps="true"
         android:textColor="@android:color/white"
         android:textSize="@dimen/font_size_tiny"

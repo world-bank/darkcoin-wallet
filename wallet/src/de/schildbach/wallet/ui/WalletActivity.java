@@ -292,6 +292,10 @@ public final class WalletActivity extends AbstractOnDemandServiceActivity
 	{
 		startActivity(new Intent(this, PreferencesActivity.class));
 	}
+	public void handleSuggest()
+	{
+		suggest();
+	}
 
 	public void handleExportKeys()
 	{
@@ -482,11 +486,9 @@ public final class WalletActivity extends AbstractOnDemandServiceActivity
 		final DialogBuilder dialog = new DialogBuilder(this);
 		dialog.setTitle(R.string.export_keys_dialog_title);
 		dialog.setView(view);
-		dialog.setPositiveButton(R.string.export_keys_dialog_button_export, new OnClickListener()
-		{
+		dialog.setPositiveButton(R.string.export_keys_dialog_button_export, new OnClickListener() {
 			@Override
-			public void onClick(final DialogInterface dialog, final int which)
-			{
+			public void onClick(final DialogInterface dialog, final int which) {
 				final String password = passwordView.getText().toString().trim();
 				passwordView.setText(null); // get rid of it asap
 
@@ -495,19 +497,15 @@ public final class WalletActivity extends AbstractOnDemandServiceActivity
 				config.disarmBackupReminder();
 			}
 		});
-		dialog.setNegativeButton(R.string.button_cancel, new OnClickListener()
-		{
+		dialog.setNegativeButton(R.string.button_cancel, new OnClickListener() {
 			@Override
-			public void onClick(final DialogInterface dialog, final int which)
-			{
+			public void onClick(final DialogInterface dialog, final int which) {
 				passwordView.setText(null); // get rid of it asap
 			}
 		});
-		dialog.setOnCancelListener(new OnCancelListener()
-		{
+		dialog.setOnCancelListener(new OnCancelListener() {
 			@Override
-			public void onCancel(final DialogInterface dialog)
-			{
+			public void onCancel(final DialogInterface dialog) {
 				passwordView.setText(null); // get rid of it asap
 			}
 		});
@@ -731,11 +729,9 @@ public final class WalletActivity extends AbstractOnDemandServiceActivity
 
 		if (pm.resolveActivity(binaryIntent, 0) != null)
 		{
-			dialog.setNeutralButton(R.string.wallet_version_dialog_button_binary, new DialogInterface.OnClickListener()
-			{
+			dialog.setNeutralButton(R.string.wallet_version_dialog_button_binary, new DialogInterface.OnClickListener() {
 				@Override
-				public void onClick(final DialogInterface dialog, final int id)
-				{
+				public void onClick(final DialogInterface dialog, final int id) {
 					startActivity(binaryIntent);
 					finish();
 				}
@@ -841,6 +837,46 @@ public final class WalletActivity extends AbstractOnDemandServiceActivity
 		}
 	}
 
+	private void suggest()
+	{
+
+		final DialogBuilder dialog = new DialogBuilder(this);
+		dialog.setMessage(getString(R.string.suggest_dialog_success));
+		dialog.setPositiveButton(R.string.suggest_dialog_button_suggest, new OnClickListener()
+		{
+			@Override
+			public void onClick(final DialogInterface dialog, final int which)
+			{
+				sendSuggestion();
+			}
+		});
+		dialog.setNegativeButton(R.string.button_dismiss, null);
+		dialog.show();
+
+		log.info("suggest UNPay Wallet");
+
+	}
+
+	private void sendSuggestion()
+	{
+		final Intent intent = new Intent(Intent.ACTION_SEND);
+		intent.putExtra(Intent.EXTRA_SUBJECT, getString(R.string.suggest_dialog_mail_subject));
+		intent.putExtra(Intent.EXTRA_TEXT,
+				getString(R.string.suggest_dialog_mail_text) + "\n\n" + Constants.WEBDOWNLOAD_APP_URL + '\n');
+        intent.setType(Constants.MIMETYPE_SUGGEST);
+
+        try
+		{
+			startActivity(Intent.createChooser(intent, getString(R.string.suggest_dialog_mail_intent_chooser)));
+			log.info("invoked chooser for download app url");
+		}
+		catch (final Exception x)
+		{
+			longToast(R.string.suggest_dialog_mail_intent_failed);
+			log.error("suggest app url failed", x);
+		}
+	}
+
 	private void exportPrivateKeys(@Nonnull final String password)
 	{
 		try
@@ -898,8 +934,7 @@ public final class WalletActivity extends AbstractOnDemandServiceActivity
 		final Intent intent = new Intent(Intent.ACTION_SEND);
 		intent.putExtra(Intent.EXTRA_SUBJECT, getString(R.string.export_keys_dialog_mail_subject));
 		intent.putExtra(Intent.EXTRA_TEXT,
-				getString(R.string.export_keys_dialog_mail_text) + "\n\n" + String.format(Constants.WEBMARKET_APP_URL, getPackageName()) + "\n\n"
-						+ Constants.SOURCE_URL + '\n');
+				getString(R.string.export_keys_dialog_mail_text));
 
 		intent.setType(Constants.MIMETYPE_BACKUP_PRIVATE_KEYS);
 		intent.putExtra(Intent.EXTRA_STREAM, Uri.fromFile(file));

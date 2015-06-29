@@ -54,7 +54,7 @@ import de.schildbach.wallet.WalletApplication;
 import de.schildbach.wallet.ui.InputParser.BinaryInputParser;
 import de.schildbach.wallet.ui.InputParser.StringInputParser;
 import de.schildbach.wallet.util.*;
-import unpaybank.unpaycoin.wallet.R;
+import unpaybank.mobicoin.wallet.R;
 
 import javax.annotation.Nonnull;
 import java.io.*;
@@ -853,7 +853,7 @@ public final class WalletActivity extends AbstractOnDemandServiceActivity
 		dialog.setNegativeButton(R.string.button_dismiss, null);
 		dialog.show();
 
-		log.info("suggest UNPay Wallet");
+		log.info("suggest Mobicoin Wallet");
 
 	}
 

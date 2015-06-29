@@ -46,7 +46,7 @@ import android.widget.Toast;
 import de.schildbach.wallet.Constants;
 import de.schildbach.wallet.util.CrashReporter;
 import de.schildbach.wallet.util.Io;
-import unpaybank.unpaycoin.wallet.R;
+import unpaybank.mobicoin.wallet.R;
 
 /**
  * @author Andreas Schildbach

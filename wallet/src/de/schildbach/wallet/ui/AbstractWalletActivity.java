@@ -30,7 +30,7 @@ import android.widget.Toast;
 import com.actionbarsherlock.app.SherlockFragmentActivity;
 
 import de.schildbach.wallet.WalletApplication;
-import unpaybank.unpaycoin.wallet.R;
+import unpaybank.mobicoin.wallet.R;
 
 
 /**

@@ -58,7 +58,7 @@ import com.google.zxing.common.HybridBinarizer;
 import com.google.zxing.qrcode.QRCodeReader;
 
 import de.schildbach.wallet.camera.CameraManager;
-import unpaybank.unpaycoin.wallet.R;
+import unpaybank.mobicoin.wallet.R;
 
 /**
  * @author Andreas Schildbach

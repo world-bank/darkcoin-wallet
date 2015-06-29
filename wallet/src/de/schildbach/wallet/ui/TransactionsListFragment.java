@@ -79,7 +79,7 @@ import de.schildbach.wallet.util.Nfc;
 import de.schildbach.wallet.util.Qr;
 import de.schildbach.wallet.util.WalletUtils;
 
-import unpaybank.unpaycoin.wallet.R;
+import unpaybank.mobicoin.wallet.R;
 import de.schildbach.wallet.util.ThrottlingWalletChangeListener;
 
 

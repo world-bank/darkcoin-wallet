@@ -44,7 +44,7 @@ import com.google.bitcoin.core.Wallet;
 import de.schildbach.wallet.Constants;
 import de.schildbach.wallet.util.Crypto;
 import de.schildbach.wallet.util.WalletUtils;
-import unpaybank.unpaycoin.wallet.R;
+import unpaybank.mobicoin.wallet.R;
 
 /**
  * @author Andreas Schildbach
